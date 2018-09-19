@@ -56,7 +56,8 @@ const schema = new mongoose.Schema(
         subtitleLanguage: String,
         kanaName: String,
         alternativeHeadline: String,
-        ticketTypeGroup: String
+        ticketTypeGroup: String,
+        releaseTime: Date
     },
     {
         collection: 'events',
