@@ -267,6 +267,21 @@ export class MongoRepository {
 
         return event;
     }
+    /**
+     * 複数の上映イベントを保管する
+     */
+    public async saveMultipleScreeningEvent(
+        params: factory.event.screeningEvent.IAttributes[]
+    ): Promise<factory.event.screeningEvent.IEvent[]> {
+        const args = params.map((p) => ({
+            _id: uniqid(),
+            ...p
+        }));
+        const docs = await this.eventModel.create(args);
+
+        return docs.map((doc) => doc.toObject());
+    }
+
     public async countScreeningEvents(params: factory.event.screeningEvent.ISearchConditions): Promise<number> {
         const conditions = MongoRepository.CREATE_SCREENING_EVENT_MONGO_CONDITIONS(params);
 
