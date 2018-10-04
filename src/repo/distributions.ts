@@ -12,8 +12,10 @@ export class MongoRepository {
     constructor(connection: Connection) {
         this.distributionsModel = connection.model(distributionsModel.modelName);
     }
-    
-    public async save(distributionsAttributes: factory.distributions.distribute.IDistributions): Promise<factory.distributions.distribute.IDistributions> {
+
+    public async save(
+        distributionsAttributes: factory.distributions.distribute.IDistributions
+    ): Promise<factory.distributions.distribute.IDistributions> {
         return this.distributionsModel.create(distributionsAttributes).then(
             (doc) => <factory.distributions.distribute.IDistributions>doc.toObject()
         );
@@ -24,5 +26,5 @@ export class MongoRepository {
 
         return query.setOptions({ maxTimeMS: 10000 }).exec().then((docs) => docs.map((doc) => doc.toObject()));
     }
-    
+
 }
