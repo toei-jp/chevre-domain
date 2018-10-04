@@ -29,7 +29,10 @@ const schema = new mongoose.Schema(
         license: String,
         thumbnailUrl: String,
         duration: String,
-        contentRating: String
+        contentRating: String,
+        subtitle: String,
+        scheduleEndDate: Date,
+        distribution: String
     },
     {
         collection: 'creativeWorks',

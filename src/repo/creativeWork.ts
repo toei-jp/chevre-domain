@@ -30,6 +30,12 @@ export class MongoRepository implements Repository {
         if (params.name !== undefined) {
             andConditions.push({ name: new RegExp(params.name, 'i') });
         }
+        if (params.datePublishedFrom !== undefined) {
+            andConditions.push({ datePublished: { $gte: params.datePublishedFrom } });
+        }
+        if (params.datePublishedTo !== undefined) {
+            andConditions.push({ datePublished: { $lte: params.datePublishedTo } });
+        }
 
         return andConditions;
     }
