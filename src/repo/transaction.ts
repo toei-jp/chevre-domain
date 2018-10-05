@@ -224,7 +224,7 @@ export class MongoRepository {
     /**
      * 取引を期限切れにする
      */
-    public async makeExpired(): Promise<void> {
+    public async makeExpired(params: { expires: Date }): Promise<void> {
         const endDate = moment().toDate();
 
         // ステータスと期限を見て更新
