@@ -22,7 +22,10 @@ export class MongoRepository {
             }
         ];
         if (params.id !== undefined) {
-            andConditions.push({ _id: new RegExp(params.id, 'i') });
+            // andConditions.push({ _id: new RegExp(params.id, 'i') });
+            andConditions.push({ _id: {
+                $in: params.id
+            } });
         }
         if (params.name !== undefined) {
             andConditions.push({
@@ -183,7 +186,7 @@ export class MongoRepository {
     }): Promise<factory.ticketType.ITicketType> {
         const doc = await this.ticketTypeModel.findOne(
             {
-                _id: params.id
+                _id: new RegExp(params.id, 'i')
             },
             {
                 __v: 0,
@@ -257,5 +260,27 @@ export class MongoRepository {
                 _id: params.id
             }
         ).exec();
+    }
+    /**
+     * 関連券種グループリスト
+     */
+    public async findTicketTypeGroupByTicketTypeId(params: {
+        ticketTypeId: string;
+    }): Promise<factory.ticketType.ITicketType[]> {
+        const query = this.ticketTypeGroupModel.find(
+            { ticketTypes: {
+                $in: [ params.ticketTypeId ]
+            } },
+            {
+                __v: 0,
+                createdAt: 0,
+                updatedAt: 0
+            }
+        );
+
+        return query.sort({ _id: 1 })
+            .setOptions({ maxTimeMS: 10000 })
+            .exec()
+            .then((docs) => docs.map((doc) => doc.toObject()));
     }
 }

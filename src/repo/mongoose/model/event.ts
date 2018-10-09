@@ -53,11 +53,16 @@ const schema = new mongoose.Schema(
         workPerformed: workPerformedSchema,
         superEvent: superEventSchema,
         videoFormat: String,
-        subtitleLanguage: String,
+        subtitleLanguage: Number,
         kanaName: String,
         alternativeHeadline: String,
         ticketTypeGroup: String,
-        releaseTime: Date
+        releaseTime: Date,
+        movieSubtitleName: String,
+        signageDisplayName: String,
+        signageDislaySubtitleName: String,
+        summaryStartDay: Number,
+        mvtkFlg: Number
     },
     {
         collection: 'events',
