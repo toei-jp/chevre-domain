@@ -62,7 +62,11 @@ const schema = new mongoose.Schema(
         signageDisplayName: String,
         signageDislaySubtitleName: String,
         summaryStartDay: Number,
-        mvtkFlg: Number
+        mvtkFlg: Number,
+        saleStartDate: Date,
+        onlineDisplayStartDate: Date,
+        maxSheetNumber: Number,
+        precedingSaleFlg: Number
     },
     {
         collection: 'events',

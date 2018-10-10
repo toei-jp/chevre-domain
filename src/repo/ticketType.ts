@@ -21,11 +21,13 @@ export class MongoRepository {
                 _id: { $exists: true }
             }
         ];
-        if (params.id !== undefined) {
+        if (params.id !== undefined && params.id !== '') {
             // andConditions.push({ _id: new RegExp(params.id, 'i') });
-            andConditions.push({ _id: {
-                $in: params.id
-            } });
+            if (params.id.length > 0) {
+                andConditions.push({ _id: {
+                    $in: params.id
+                } });
+            }
         }
         if (params.name !== undefined) {
             andConditions.push({
