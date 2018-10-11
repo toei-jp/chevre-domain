@@ -66,7 +66,9 @@ const schema = new mongoose.Schema(
         saleStartDate: Date,
         onlineDisplayStartDate: Date,
         maxSeatNumber: Number,
-        preSaleFlg: Number
+        preSaleFlg: Number,
+        endSaleTimeAfterScreening: Number,
+        mvtkExcludeFlg: Number
     },
     {
         collection: 'events',
