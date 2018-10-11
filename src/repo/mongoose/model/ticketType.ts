@@ -13,7 +13,15 @@ const schema = new mongoose.Schema(
         name: multilingualString,
         description: multilingualString,
         notes: multilingualString,
-        charge: Number // 料金
+        charge: Number, // 料金,
+        boxOnly: Boolean,
+        onlineOnly: Boolean,
+        nameForManagementSite: String,
+        nameForPrinting: String,
+        seatReservationUnit: Number,
+        typeOfNote: Number,
+        subject: Number,
+        indicatorColor: String
     },
     {
         collection: 'ticketTypes',
