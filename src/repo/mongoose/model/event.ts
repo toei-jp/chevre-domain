@@ -65,8 +65,8 @@ const schema = new mongoose.Schema(
         mvtkFlg: Number,
         saleStartDate: Date,
         onlineDisplayStartDate: Date,
-        maxSheetNumber: Number,
-        precedingSaleFlg: Number
+        maxSeatNumber: Number,
+        preSaleFlg: Number
     },
     {
         collection: 'events',
