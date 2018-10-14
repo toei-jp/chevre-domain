@@ -37,10 +37,12 @@ export class MongoRepository implements Repository {
             andConditions.push({ datePublished: { $lte: params.datePublishedTo } });
         }
         if (params.checkScheduleEndDate !== undefined) {
-            andConditions.push({ $or: [
-                { scheduleEndDate: { $gt: new Date() } },
-                { scheduleEndDate: null }
-            ] });
+            andConditions.push({
+                $or: [
+                    { scheduleEndDate: { $gt: new Date() } },
+                    { scheduleEndDate: null }
+                ]
+            });
         }
 
         return andConditions;

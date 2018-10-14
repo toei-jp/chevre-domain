@@ -7,6 +7,7 @@ import * as factory from '../../factory';
 import { MongoRepository as ActionRepo } from '../../repo/action';
 import { MongoRepository as EventRepo } from '../../repo/event';
 import { RedisRepository as ScreeningEventAvailabilityRepo } from '../../repo/itemAvailability/screeningEvent';
+import { MongoRepository as PriceSpecificationRepo } from '../../repo/priceSpecification';
 import { MongoRepository as ReservationRepo } from '../../repo/reservation';
 import { RedisRepository as ReservationNumberRepo } from '../../repo/reservationNumber';
 import { MongoRepository as TaskRepo } from '../../repo/task';
@@ -16,10 +17,10 @@ import { MongoRepository as TransactionRepo } from '../../repo/transaction';
 import * as ReserveService from '../reserve';
 
 const debug = createDebug('chevre-domain:service');
-
 export type IStartOperation<T> = (repos: {
     eventAvailability: ScreeningEventAvailabilityRepo;
     event: EventRepo;
+    priceSpecification: PriceSpecificationRepo;
     reservation: ReservationRepo;
     reservationNumber: ReservationNumberRepo;
     transaction: TransactionRepo;
@@ -50,6 +51,7 @@ export function start(
     return async (repos: {
         eventAvailability: ScreeningEventAvailabilityRepo;
         event: EventRepo;
+        priceSpecification: PriceSpecificationRepo;
         reservation: ReservationRepo;
         reservationNumber: ReservationNumberRepo;
         transaction: TransactionRepo;
@@ -68,6 +70,26 @@ export function start(
         const ticketTypes = await repos.ticketType.findByTicketGroupId({ ticketGroupId: screeningEvent.ticketTypeGroup });
         debug('available ticket type:', ticketTypes);
 
+        // 加算料金計算
+        let additinalChargePrice = 0;
+        const videoFormatCompoundPriceSpecifications = await repos.priceSpecification.searchCompoundPriceSpecifications({
+            typeOf: factory.priceSpecificationType.CompoundPriceSpecification,
+            priceComponent: { typeOf: factory.priceSpecificationType.VideoFormatChargeSpecification }
+        });
+        if (videoFormatCompoundPriceSpecifications.length > 0) {
+            const videoFormatCompoundPriceSpecification = videoFormatCompoundPriceSpecifications[0];
+            const videoFormatChargeSpecifications = videoFormatCompoundPriceSpecification.priceComponent;
+            if (Array.isArray(screeningEvent.superEvent.videoFormat)) {
+                screeningEvent.superEvent.videoFormat.forEach((videoFormat) => {
+                    // 価格仕様設定があれば加算
+                    const specification = videoFormatChargeSpecifications.find((s) => s.appliesToVideoFormat === videoFormat.typeOf);
+                    if (specification !== undefined) {
+                        additinalChargePrice += specification.price;
+                    }
+                });
+            }
+        }
+
         // 予約番号発行
         const reservationNumber = await repos.reservationNumber.publish({
             reserveDate: now,
@@ -75,22 +97,22 @@ export function start(
         });
 
         // 取引ファクトリーで新しい進行中取引オブジェクトを作成
-        const tickets: factory.reservation.ITicket[] = params.object.tickets.map((ticket) => {
-            const ticketType = ticketTypes.find((t) => t.id === ticket.ticketType.id);
+        const tickets: factory.reservation.ITicket[] = params.object.acceptedOffer.map((offer) => {
+            const ticketType = ticketTypes.find((t) => t.id === offer.id);
             if (ticketType === undefined) {
-                throw new factory.errors.NotFound('Ticket type');
+                throw new factory.errors.NotFound('Ticket Type');
             }
 
             return {
-                typeOf: 'Ticket',
+                typeOf: <factory.reservation.TicketType>'Ticket',
                 dateIssued: now,
                 issuedBy: {
                     typeOf: screeningEvent.location.typeOf,
                     name: screeningEvent.location.name.ja
                 },
-                totalPrice: ticketType.charge,
+                totalPrice: ticketType.price + additinalChargePrice,
                 priceCurrency: factory.priceCurrency.JPY,
-                ticketedSeat: ticket.ticketedSeat,
+                ticketedSeat: offer.ticketedSeat,
                 underName: {
                     typeOf: params.agent.typeOf,
                     name: params.agent.name
@@ -171,7 +193,7 @@ function createReservation(params: {
         additionalTicketText: params.reservedTicket.ticketType.name.ja,
         modifiedTime: params.reserveDate,
         numSeats: 1,
-        price: params.reservedTicket.ticketType.charge,
+        price: params.reservedTicket.totalPrice,
         priceCurrency: factory.priceCurrency.JPY,
         reservationFor: params.screeningEvent,
         reservationNumber: params.reservationNumber,

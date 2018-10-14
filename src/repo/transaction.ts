@@ -224,17 +224,18 @@ export class MongoRepository {
     /**
      * 取引を期限切れにする
      */
-    public async makeExpired(params: { expires: Date }): Promise<void> {
+    public async makeExpired(): Promise<void> {
+        const endDate = moment().toDate();
 
         // ステータスと期限を見て更新
         await this.transactionModel.update(
             {
                 status: factory.transactionStatusType.InProgress,
-                endDate: { $lt: params.expires }
+                expires: { $lt: endDate }
             },
             {
                 status: factory.transactionStatusType.Expired,
-                endDate: params.expires
+                endDate: endDate
             },
             { multi: true }
         ).exec();

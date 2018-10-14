@@ -239,7 +239,7 @@ export class MongoRepository {
         return event;
     }
     /**
-     * 個々の上映イベントを保管する
+     * 上映イベントを保管する
      */
     public async saveScreeningEvent(params: {
         id?: string;
@@ -281,7 +281,6 @@ export class MongoRepository {
 
         return docs.map((doc) => doc.toObject());
     }
-
     public async countScreeningEvents(params: factory.event.screeningEvent.ISearchConditions): Promise<number> {
         const conditions = MongoRepository.CREATE_SCREENING_EVENT_MONGO_CONDITIONS(params);
 
