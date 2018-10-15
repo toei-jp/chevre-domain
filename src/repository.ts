@@ -9,6 +9,7 @@ import { MongoRepository as DistributionsRepo } from './repo/distributions';
 import { MongoRepository as EventRepo } from './repo/event';
 import { RedisRepository as ScreeningEventItemAvailabilityRepo } from './repo/itemAvailability/screeningEvent';
 import { MongoRepository as PlaceRepo } from './repo/place';
+import { MongoRepository as PriceSpecificationRepo } from './repo/priceSpecification';
 import { MongoRepository as ReservationRepo } from './repo/reservation';
 import { RedisRepository as ReservationNumberRepo } from './repo/reservationNumber';
 import { MongoRepository as TaskRepo } from './repo/task';
@@ -20,6 +21,7 @@ export class CreativeWork extends CreativeWorkRepo { }
 export class Distributions extends DistributionsRepo { }
 export class Event extends EventRepo { }
 export class Place extends PlaceRepo { }
+export class PriceSpecification extends PriceSpecificationRepo { }
 export class Reservation extends ReservationRepo { }
 export class ReservationNumber extends ReservationNumberRepo { }
 export class Task extends TaskRepo { }

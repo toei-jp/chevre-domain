@@ -24,9 +24,11 @@ export class MongoRepository {
         if (params.id !== undefined && params.id !== '') {
             // andConditions.push({ _id: new RegExp(params.id, 'i') });
             if (params.id.length > 0) {
-                andConditions.push({ _id: {
-                    $in: params.id
-                } });
+                andConditions.push({
+                    _id: {
+                        $in: params.id
+                    }
+                });
             }
         }
         if (params.name !== undefined) {
@@ -275,9 +277,11 @@ export class MongoRepository {
         ticketTypeId: string;
     }): Promise<factory.ticketType.ITicketType[]> {
         const query = this.ticketTypeGroupModel.find(
-            { ticketTypes: {
-                $in: [ params.ticketTypeId ]
-            } },
+            {
+                ticketTypes: {
+                    $in: [params.ticketTypeId]
+                }
+            },
             {
                 __v: 0,
                 createdAt: 0,
