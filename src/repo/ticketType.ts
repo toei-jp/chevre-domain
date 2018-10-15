@@ -37,6 +37,11 @@ export class MongoRepository {
                 ]
             });
         }
+        if (params.charge !== undefined) {
+            andConditions.push({
+                charge: { $lte: params.charge }
+            });
+        }
 
         return andConditions;
     }
