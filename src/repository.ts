@@ -6,6 +6,7 @@ import { MongoRepository as ActionRepo } from './repo/action';
 import { RedisRepository as ScreeningEventAggregationRepo } from './repo/aggregation/screeningEvent';
 import { MongoRepository as CreativeWorkRepo } from './repo/creativeWork';
 import { MongoRepository as DistributionsRepo } from './repo/distributions';
+import { MongoRepository as EntertainmentTypeRepo } from './repo/entertainmentType';
 import { MongoRepository as EventRepo } from './repo/event';
 import { RedisRepository as ScreeningEventItemAvailabilityRepo } from './repo/itemAvailability/screeningEvent';
 import { MongoRepository as PlaceRepo } from './repo/place';
@@ -19,6 +20,7 @@ import { MongoRepository as TransactionRepo } from './repo/transaction';
 export class Action extends ActionRepo { }
 export class CreativeWork extends CreativeWorkRepo { }
 export class Distributions extends DistributionsRepo { }
+export class EntertainmentType extends EntertainmentTypeRepo { }
 export class Event extends EventRepo { }
 export class Place extends PlaceRepo { }
 export class PriceSpecification extends PriceSpecificationRepo { }

@@ -39,10 +39,22 @@ export class MongoRepository {
                 ]
             });
         }
-        if (params.charge !== undefined) {
+        if (params.price !== undefined) {
             andConditions.push({
-                charge: { $lte: params.charge }
+                price: { $lte: params.price }
             });
+        }
+        // idHasChoose
+        if (params.idHasChoose !== undefined && params.idHasChoose !== '') {
+            if (params.idHasChoose.length > 0) {
+                andConditions.push({
+                    _id: {
+                        $not: {
+                            $in: params.idHasChoose
+                        }
+                    }
+                });
+            }
         }
 
         return andConditions;

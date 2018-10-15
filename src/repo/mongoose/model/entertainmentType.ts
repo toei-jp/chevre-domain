@@ -1,31 +1,22 @@
 import * as mongoose from 'mongoose';
-
 import multilingualString from '../schemaTypes/multilingualString';
-import TicketType from './ticketType';
 
 const safe = { j: true, w: 'majority', wtimeout: 10000 };
 
 /**
- * 券種グループスキーマ
+ * 興行区分スキーマ
  */
 const schema = new mongoose.Schema(
     {
-        _id: String,
-        name: multilingualString,
-        description: multilingualString,
-        notes: multilingualString,
-        ticketTypes: [{
-            type: String,
-            ref: TicketType.modelName,
-            required: true
-        }],
-        entertainmentType: String
+        name: multilingualString
     },
     {
-        collection: 'ticketTypeGroups',
+        collection: 'entertainmentTypes',
         id: true,
         read: 'primaryPreferred',
         safe: safe,
+        strict: true,
+        useNestedStrict: true,
         timestamps: {
             createdAt: 'createdAt',
             updatedAt: 'updatedAt'
@@ -35,13 +26,12 @@ const schema = new mongoose.Schema(
     }
 );
 
-export default mongoose.model('TicketTypeGroup', schema).on(
+export default mongoose.model('EntertainmentType', schema).on(
     'index',
     // tslint:disable-next-line:no-single-line-block-comment
     /* istanbul ignore next */
     (error) => {
         if (error !== undefined) {
-            // tslint:disable-next-line:no-console
             console.error(error);
         }
     }
