@@ -61,6 +61,29 @@ export class MongoRepository {
                     { 'reservationFor.id': params.reservationFor.id }
                 );
             }
+            // tslint:disable-next-line:no-single-line-block-comment
+            /* istanbul ignore else */
+            if (params.reservationFor.superEvent !== undefined) {
+                andConditions.push(
+                    { 'reservationFor.superEvent.id': params.reservationFor.superEvent.id }
+                );
+            }
+            // tslint:disable-next-line:no-single-line-block-comment
+            /* istanbul ignore else */
+            if (params.reservationFor.startFrom !== undefined) {
+                andConditions.push({ 'reservationFor.startDate': {
+                        $gte: params.reservationFor.startFrom
+                    }
+                });
+            }
+            // tslint:disable-next-line:no-single-line-block-comment
+            /* istanbul ignore else */
+            if (params.reservationFor.startThrough !== undefined) {
+                andConditions.push({ 'reservationFor.startDate': {
+                        $lte: params.reservationFor.startThrough
+                    }
+                });
+            }
         }
 
         return andConditions;

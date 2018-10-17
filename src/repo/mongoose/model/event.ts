@@ -76,7 +76,6 @@ const schema = new mongoose.Schema(
         kanaName: String,
         alternativeHeadline: String,
         ticketTypeGroup: String,
-        releaseTime: Date,
         movieSubtitleName: String,
         signageDisplayName: String,
         signageDislaySubtitleName: String,
