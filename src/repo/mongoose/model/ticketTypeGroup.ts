@@ -2,6 +2,7 @@ import * as mongoose from 'mongoose';
 
 import multilingualString from '../schemaTypes/multilingualString';
 import TicketType from './ticketType';
+import BoxOfficeType from './boxOfficeType';
 
 const safe = { j: true, w: 'majority', wtimeout: 10000 };
 
@@ -19,7 +20,11 @@ const schema = new mongoose.Schema(
             ref: TicketType.modelName,
             required: true
         }],
-        entertainmentType: String
+        boxOfficeType: {
+            type: String,
+            ref: BoxOfficeType.modelName,
+            required: true
+        }
     },
     {
         collection: 'ticketTypeGroups',

@@ -1,17 +1,24 @@
 import * as mongoose from 'mongoose';
-import multilingualString from '../schemaTypes/multilingualString';
 
 const safe = { j: true, w: 'majority', wtimeout: 10000 };
 
 /**
- * 興行区分スキーマ
+ * 科目スキーマ
  */
 const schema = new mongoose.Schema(
     {
-        name: multilingualString
+        subjectClassificationCd: String,
+        subjectClassificationName: String,
+        subjectCd: String,
+        subjectName: String,
+        detailCd: {
+            type: String,
+            unique: true
+        },
+        detailName: String
     },
     {
-        collection: 'entertainmentTypes',
+        collection: 'subjects',
         id: true,
         read: 'primaryPreferred',
         safe: safe,
@@ -26,7 +33,7 @@ const schema = new mongoose.Schema(
     }
 );
 
-export default mongoose.model('EntertainmentType', schema).on(
+export default mongoose.model('Subject', schema).on(
     'index',
     // tslint:disable-next-line:no-single-line-block-comment
     /* istanbul ignore next */

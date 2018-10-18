@@ -103,7 +103,7 @@ export function start(
                     nameForManagementSite: ticketOffer.name.ja,
                     nameForPrinting: ticketOffer.name.ja,
                     seatReservationUnit: 0,
-                    subject: 0,
+                    subject: '',
                     indicatorColor: ''
                 };
             }

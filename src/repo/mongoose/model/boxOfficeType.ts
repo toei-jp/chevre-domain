@@ -1,34 +1,22 @@
 import * as mongoose from 'mongoose';
-
 import multilingualString from '../schemaTypes/multilingualString';
 
 const safe = { j: true, w: 'majority', wtimeout: 10000 };
 
 /**
- * 券種スキーマ
+ * 興行区分スキーマ
  */
 const schema = new mongoose.Schema(
     {
-        _id: String,
-        name: multilingualString,
-        description: multilingualString,
-        notes: multilingualString,
-        price: Number,
-        boxOnly: Boolean,
-        onlineOnly: Boolean,
-        nameForManagementSite: String,
-        nameForPrinting: String,
-        seatReservationUnit: Number,
-        typeOfNote: Number,
-        subject: Number,
-        nonBoxOfficeSubject: String,
-        indicatorColor: String
+        name: multilingualString
     },
     {
-        collection: 'ticketTypes',
+        collection: 'boxOfficeTypes',
         id: true,
         read: 'primaryPreferred',
         safe: safe,
+        strict: true,
+        useNestedStrict: true,
         timestamps: {
             createdAt: 'createdAt',
             updatedAt: 'updatedAt'
@@ -38,13 +26,12 @@ const schema = new mongoose.Schema(
     }
 );
 
-export default mongoose.model('TicketType', schema).on(
+export default mongoose.model('BoxOfficeType', schema).on(
     'index',
     // tslint:disable-next-line:no-single-line-block-comment
     /* istanbul ignore next */
     (error) => {
         if (error !== undefined) {
-            // tslint:disable-next-line:no-console
             console.error(error);
         }
     }
