@@ -7,6 +7,7 @@ const safe = { j: true, w: 'majority', wtimeout: 10000 };
  */
 const schema = new mongoose.Schema(
     {
+        _id: String,
         name: String
     },
     {
