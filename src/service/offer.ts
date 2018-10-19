@@ -156,7 +156,9 @@ export function searchScreeningEventTicketOffers(params: {
                 name: ticketType.name,
                 description: ticketType.description,
                 priceCurrency: factory.priceCurrency.JPY,
-                priceSpecification: compoundPriceSpecification
+                priceSpecification: compoundPriceSpecification,
+                isOnlineTicket: ticketType.isOnlineTicket,
+                isBoxTicket: ticketType.isBoxTicket
             };
         });
 
