@@ -1,5 +1,4 @@
 import * as mongoose from 'mongoose';
-import multilingualString from '../schemaTypes/multilingualString';
 
 const safe = { j: true, w: 'majority', wtimeout: 10000 };
 
@@ -8,7 +7,8 @@ const safe = { j: true, w: 'majority', wtimeout: 10000 };
  */
 const schema = new mongoose.Schema(
     {
-        name: multilingualString
+        _id: String,
+        name: String
     },
     {
         collection: 'boxOfficeTypes',
