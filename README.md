@@ -7,7 +7,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/toei-jp/chevre-domain/badge.svg?targetFile=package.json)](https://snyk.io/test/github/toei-jp/chevre-domain?targetFile=package.json)
 [![npm](https://img.shields.io/npm/dm/@toei-jp/chevre-domain.svg)](https://nodei.co/npm/@toei-jp/chevre-domain/)
 
-元祖興行パッケージオンラインチケットシステムのドメインモデルをnode.jsで使いやすいようにまとめたパッケージです。
+Chevre座席予約システムのドメインモデルをNode.jsで使いやすいようにまとめたパッケージです。
 
 ## Table of contents
 
@@ -36,7 +36,7 @@ chevre.mongoose.connect();
 ### Environment variables
 
 | Name    | Required | Value           | Purpose |
-|---------|----------|-----------------|---------|
+| ------- | -------- | --------------- | ------- |
 | `DEBUG` | false    | chevre-domain:* | Debug   |
 
 ## Code Samples
