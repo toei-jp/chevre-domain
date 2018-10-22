@@ -20,7 +20,7 @@ const schema = new mongoose.Schema(
         nameForPrinting: String,
         seatReservationUnit: Number,
         typeOfNote: Number,
-        subject: Number,
+        subject: String,
         nonBoxOfficeSubject: String,
         indicatorColor: String
     },
