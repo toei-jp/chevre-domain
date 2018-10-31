@@ -191,6 +191,18 @@ export function searchScreeningEventTicketOffers(params: {
                 priceComponent: priceComponent
             };
 
+            // 券種利用状況を券種属性によってい調整
+            let availability = ticketType.availability;
+            if (availability === undefined) {
+                if (ticketType.isBoxTicket) {
+                    availability = factory.itemAvailability.InStoreOnly;
+                } else if (ticketType.isOnlineTicket) {
+                    availability = factory.itemAvailability.OnlineOnly;
+                } else {
+                    availability = factory.itemAvailability.InStock;
+                }
+            }
+
             return {
                 typeOf: <factory.offerType>'Offer',
                 id: ticketType.id,
@@ -198,7 +210,7 @@ export function searchScreeningEventTicketOffers(params: {
                 description: ticketType.description,
                 priceCurrency: factory.priceCurrency.JPY,
                 priceSpecification: compoundPriceSpecification,
-                availability: ticketType.availability,
+                availability: availability,
                 availabilityEnds: offers.availabilityEnds,
                 availabilityStarts: offers.availabilityStarts,
                 eligibleQuantity: offers.eligibleQuantity,
