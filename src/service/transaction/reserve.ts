@@ -95,15 +95,17 @@ export function start(
                     id: ticketOffer.id,
                     name: ticketOffer.name,
                     description: ticketOffer.description,
-                    notes: { ja: '', en: '', kr: '' },
+                    notes: { ja: '', en: '' },
                     price: totalPrice,
-                    isBoxTicket: false,
+                    availability: factory.itemAvailability.InStock,
+                    isOnlineTicket: true,
                     typeOfNote: 0,
-                    isOnlineTicket: false,
-                    nameForManagementSite: ticketOffer.name.ja,
-                    nameForPrinting: ticketOffer.name.ja,
-                    seatReservationUnit: 0,
+                    isBoxTicket: true,
+                    nameForManagementSite: '',
+                    nameForPrinting: '',
+                    seatReservationUnit: 1,
                     subject: '',
+                    nonBoxOfficeSubject: '',
                     indicatorColor: ''
                 };
             }
@@ -204,7 +206,9 @@ function createReservation(params: {
         reservationNumber: params.reservationNumber,
         reservationStatus: factory.reservationStatusType.ReservationPending,
         reservedTicket: params.reservedTicket,
-        underName: params.agent
+        underName: params.agent,
+        checkedIn: false,
+        attended: false
     };
 }
 

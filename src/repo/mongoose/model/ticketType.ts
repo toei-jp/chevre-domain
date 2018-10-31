@@ -14,6 +14,7 @@ const schema = new mongoose.Schema(
         description: multilingualString,
         notes: multilingualString,
         price: Number,
+        availability: String,
         isBoxTicket: Boolean,
         isOnlineTicket: Boolean,
         nameForManagementSite: String,
