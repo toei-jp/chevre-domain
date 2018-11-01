@@ -92,18 +92,22 @@ export function start(
             let ticketType = ticketTypes.find((t) => t.id === offer.id);
             if (ticketType === undefined) {
                 ticketType = {
+                    typeOf: 'Offer',
                     id: ticketOffer.id,
                     name: ticketOffer.name,
                     description: ticketOffer.description,
                     notes: { ja: '', en: '' },
                     price: totalPrice,
+                    priceCurrency: factory.priceCurrency.JPY,
                     availability: factory.itemAvailability.InStock,
-                    isOnlineTicket: true,
+                    eligibleQuantity: {
+                        typeOf: 'QuantitativeValue',
+                        value: 1,
+                        unitCode: factory.unitCode.C62
+                    },
                     typeOfNote: 0,
-                    isBoxTicket: true,
                     nameForManagementSite: '',
                     nameForPrinting: '',
-                    seatReservationUnit: 1,
                     subject: '',
                     nonBoxOfficeSubject: '',
                     indicatorColor: ''

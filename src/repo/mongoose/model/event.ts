@@ -93,14 +93,7 @@ const schema = new mongoose.Schema(
         movieSubtitleName: String,
         signageDisplayName: String,
         signageDislaySubtitleName: String,
-        summaryStartDay: Number,
-        mvtkFlg: Number,
-        saleStartDate: Date,
-        onlineDisplayStartDate: Date,
-        maxSeatNumber: Number,
-        preSaleFlg: Number,
-        endSaleTimeAfterScreening: Number,
-        mvtkExcludeFlg: Number
+        summaryStartDay: Number
     },
     {
         collection: 'events',
