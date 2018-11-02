@@ -183,6 +183,17 @@ schema.index(
         name: 'searchByOffersValidFrom'
     }
 );
+schema.index(
+    {
+        ticketTypeGroup: 1
+    },
+    {
+        partialFilterExpression: {
+            ticketTypeGroup: { $exists: true }
+        },
+        name: 'searchByTicketTypeGroup'
+    }
+);
 
 export default mongoose.model('Event', schema).on(
     'index',
