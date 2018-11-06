@@ -11,6 +11,15 @@ const copyrightHolderSchema = new mongoose.Schema(
     }
 );
 
+const offersSchema = new mongoose.Schema(
+    {},
+    {
+        id: false,
+        _id: false,
+        strict: false
+    }
+);
+
 /**
  * 作品スキーマ
  */
@@ -22,6 +31,7 @@ const schema = new mongoose.Schema(
         },
         identifier: String,
         name: String,
+        alternateName: String,
         description: String,
         copyrightHolder: copyrightHolderSchema,
         copyrightYear: Number,
@@ -30,8 +40,8 @@ const schema = new mongoose.Schema(
         thumbnailUrl: String,
         duration: String,
         contentRating: String,
+        offers: offersSchema,
         subtitle: String,
-        scheduleEndDate: Date,
         distribution: String
     },
     {

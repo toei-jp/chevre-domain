@@ -31,6 +31,15 @@ const openingHoursSpecificationSchema = new mongoose.Schema(
     }
 );
 
+const offersSchema = new mongoose.Schema(
+    {},
+    {
+        id: false,
+        _id: false,
+        strict: false
+    }
+);
+
 /**
  * 場所スキーマ
  */
@@ -42,6 +51,7 @@ const schema = new mongoose.Schema(
             required: true
         },
         name: MultilingualStringSchemaType,
+        alternateName: MultilingualStringSchemaType,
         description: MultilingualStringSchemaType,
         address: MultilingualStringSchemaType,
         branchCode: String,
@@ -53,7 +63,8 @@ const schema = new mongoose.Schema(
         telephone: String,
         sameAs: String,
         url: String,
-        kanaName: String
+        kanaName: String,
+        offers: offersSchema
     },
     {
         collection: 'places',
