@@ -91,7 +91,7 @@ export class MongoRepository {
         ).exec()
             .then((doc) => {
                 if (doc === null) {
-                    throw new factory.errors.NotFound('Ticket type group');
+                    throw new factory.errors.NotFound('Ticket Type Group');
                 }
 
                 return <factory.ticketType.ITicketTypeGroup>doc.toObject();
@@ -125,7 +125,7 @@ export class MongoRepository {
             }
         ).exec();
         if (doc === null) {
-            throw new factory.errors.NotFound('Ticket type group');
+            throw new factory.errors.NotFound('Ticket Type Group');
         }
 
         return doc.toObject();
@@ -176,7 +176,7 @@ export class MongoRepository {
             { upsert: false, new: true }
         ).exec();
         if (doc === null) {
-            throw new factory.errors.NotFound('Ticket type group');
+            throw new factory.errors.NotFound('Ticket Type Group');
         }
     }
     /**
@@ -207,7 +207,7 @@ export class MongoRepository {
     }): Promise<factory.ticketType.ITicketType> {
         const doc = await this.ticketTypeModel.findOne(
             {
-                _id: new RegExp(params.id, 'i')
+                _id: params.id
             },
             {
                 __v: 0,
@@ -216,7 +216,7 @@ export class MongoRepository {
             }
         ).exec();
         if (doc === null) {
-            throw new factory.errors.NotFound('Ticket type group');
+            throw new factory.errors.NotFound('Ticket Type');
         }
 
         return doc.toObject();
