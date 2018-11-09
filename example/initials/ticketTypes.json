@@ -1,0 +1,227 @@
+[
+    {
+        "id": "1001",
+        "name": {
+            "ja": "一般",
+            "en": "General"
+        },
+        "description": {
+            "ja": "一般",
+            "en": "General"
+        },
+        "price": 1800,
+        "priceCurrency": "JPY",
+        "availability": "InStock",
+        "nameForManagementSite": "一般",
+        "nameForPrinting": "一般",
+        "subject": "1000",
+        "nonBoxOfficeSubject": "1000",
+        "typeOfNote": 1,
+        "indicatorColor": "rgb(51, 51, 51)",
+        "eligibleQuantity": {
+            "typeOf": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "C62"
+        }
+    },
+    {
+        "id": "1002",
+        "name": {
+            "ja": "シニア",
+            "en": "Senior"
+        },
+        "description": {
+            "ja": "シニア",
+            "en": "Senior"
+        },
+        "price": 1100,
+        "priceCurrency": "JPY",
+        "availability": "InStock",
+        "nameForManagementSite": "シニア",
+        "nameForPrinting": "シニア",
+        "subject": "1000",
+        "nonBoxOfficeSubject": "1000",
+        "typeOfNote": 1,
+        "indicatorColor": "rgb(51, 51, 51)",
+        "eligibleQuantity": {
+            "typeOf": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "C62"
+        }
+    },
+    {
+        "id": "1003",
+        "name": {
+            "ja": "レディースデー",
+            "en": "Women's"
+        },
+        "description": {
+            "ja": "レディースデー",
+            "en": "Women's"
+        },
+        "price": 1100,
+        "priceCurrency": "JPY",
+        "availability": "InStock",
+        "nameForManagementSite": "レディースデー",
+        "nameForPrinting": "レディースデー",
+        "subject": "1000",
+        "nonBoxOfficeSubject": "1000",
+        "typeOfNote": 1,
+        "indicatorColor": "rgb(51, 51, 51)",
+        "eligibleQuantity": {
+            "typeOf": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "C62"
+        }
+    },
+    {
+        "id": "1004",
+        "name": {
+            "ja": "ファーストデー",
+            "en": "First"
+        },
+        "description": {
+            "ja": "ファーストデー",
+            "en": "First"
+        },
+        "price": 1100,
+        "priceCurrency": "JPY",
+        "availability": "InStock",
+        "nameForManagementSite": "ファーストデー",
+        "nameForPrinting": "ファーストデー",
+        "subject": "1000",
+        "nonBoxOfficeSubject": "1000",
+        "typeOfNote": 1,
+        "indicatorColor": "rgb(51, 51, 51)",
+        "eligibleQuantity": {
+            "typeOf": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "C62"
+        }
+    },
+    {
+        "id": "1005",
+        "name": {
+            "ja": "夫婦50割引",
+            "en": "Couple50"
+        },
+        "description": {
+            "ja": "夫婦50割引",
+            "en": "Couple50"
+        },
+        "price": 2200,
+        "priceCurrency": "JPY",
+        "availability": "InStock",
+        "nameForManagementSite": "夫婦50割引",
+        "nameForPrinting": "夫婦50割引",
+        "subject": "1000",
+        "nonBoxOfficeSubject": "1000",
+        "typeOfNote": 1,
+        "indicatorColor": "rgb(51, 51, 51)",
+        "eligibleQuantity": {
+            "typeOf": "QuantitativeValue",
+            "value": 2,
+            "unitCode": "C62"
+        }
+    },
+    {
+        "id": "1006",
+        "name": {
+            "ja": "障がい者割引",
+            "en": "Disabled"
+        },
+        "description": {
+            "ja": "障がい者割引",
+            "en": "Disabled"
+        },
+        "price": 1000,
+        "priceCurrency": "JPY",
+        "availability": "InStock",
+        "nameForManagementSite": "障がい者割引",
+        "nameForPrinting": "障がい者割引",
+        "subject": "1000",
+        "nonBoxOfficeSubject": "1000",
+        "typeOfNote": 1,
+        "indicatorColor": "rgb(51, 51, 51)",
+        "eligibleQuantity": {
+            "typeOf": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "C62"
+        }
+    },
+    {
+        "id": "1007",
+        "name": {
+            "ja": "高・中・小・幼児",
+            "en": "High,"
+        },
+        "description": {
+            "ja": "高・中・小・幼児",
+            "en": "High,"
+        },
+        "price": 1000,
+        "priceCurrency": "JPY",
+        "availability": "InStock",
+        "nameForManagementSite": "高・中・小・幼児",
+        "nameForPrinting": "高・中・小・幼児",
+        "subject": "1000",
+        "nonBoxOfficeSubject": "1000",
+        "typeOfNote": 1,
+        "indicatorColor": "rgb(51, 51, 51)",
+        "eligibleQuantity": {
+            "typeOf": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "C62"
+        }
+    },
+    {
+        "id": "1008",
+        "name": {
+            "ja": "大学生",
+            "en": "University student"
+        },
+        "description": {
+            "ja": "大学生",
+            "en": "University student"
+        },
+        "price": 1500,
+        "priceCurrency": "JPY",
+        "availability": "InStock",
+        "nameForManagementSite": "大学生",
+        "nameForPrinting": "大学生",
+        "subject": "1000",
+        "nonBoxOfficeSubject": "1000",
+        "typeOfNote": 1,
+        "indicatorColor": "rgb(51, 51, 51)",
+        "eligibleQuantity": {
+            "typeOf": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "C62"
+        }
+    },
+    {
+        "id": "3001",
+        "name": {
+            "ja": "全国券",
+            "en": "Free Ticket"
+        },
+        "description": {
+            "ja": "全国券",
+            "en": "Free Ticket"
+        },
+        "price": 1800,
+        "priceCurrency": "JPY",
+        "availability": "InStoreOnly",
+        "nameForManagementSite": "全国券",
+        "nameForPrinting": "全国券",
+        "subject": "3000",
+        "nonBoxOfficeSubject": "3000",
+        "typeOfNote": 3,
+        "indicatorColor": "rgb(51, 51, 51)",
+        "eligibleQuantity": {
+            "typeOf": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "C62"
+        }
+    }
+]

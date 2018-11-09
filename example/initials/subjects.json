@@ -1,0 +1,18 @@
+[
+    {
+        "subjectClassificationCd": "1000",
+        "subjectClassificationName": "有料券",
+        "subjectCd": "1000",
+        "subjectName": "有料券",
+        "detailCd": "1000",
+        "detailName": "有料券"
+    },
+    {
+        "subjectClassificationCd": "3000",
+        "subjectClassificationName": "無料券",
+        "subjectCd": "3000",
+        "subjectName": "無料券",
+        "detailCd": "3000",
+        "detailName": "無料券"
+    }
+]
