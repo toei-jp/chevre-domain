@@ -105,11 +105,14 @@ export function start(
                         value: 1,
                         unitCode: factory.unitCode.C62
                     },
+                    accounting: {
+                        typeOf: 'Accounting',
+                        accountsReceivable: totalPrice,
+                        operatingRevenue: ''
+                    },
                     typeOfNote: 0,
                     nameForManagementSite: '',
                     nameForPrinting: '',
-                    subject: '',
-                    nonBoxOfficeSubject: '',
                     indicatorColor: ''
                 };
             }

@@ -91,7 +91,7 @@ export class MongoRepository {
         ).exec()
             .then((doc) => {
                 if (doc === null) {
-                    throw new factory.errors.NotFound('Ticket Type Group');
+                    throw new factory.errors.NotFound('Ticket type group');
                 }
 
                 return <factory.ticketType.ITicketTypeGroup>doc.toObject();
@@ -125,7 +125,7 @@ export class MongoRepository {
             }
         ).exec();
         if (doc === null) {
-            throw new factory.errors.NotFound('Ticket Type Group');
+            throw new factory.errors.NotFound('Ticket type group');
         }
 
         return doc.toObject();
@@ -176,7 +176,7 @@ export class MongoRepository {
             { upsert: false, new: true }
         ).exec();
         if (doc === null) {
-            throw new factory.errors.NotFound('Ticket Type Group');
+            throw new factory.errors.NotFound('Ticket type group');
         }
     }
     /**
@@ -216,7 +216,7 @@ export class MongoRepository {
             }
         ).exec();
         if (doc === null) {
-            throw new factory.errors.NotFound('Ticket Type');
+            throw new factory.errors.NotFound('Ticket type group');
         }
 
         return doc.toObject();
