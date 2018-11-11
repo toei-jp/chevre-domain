@@ -14,14 +14,18 @@
         "availability": "InStock",
         "nameForManagementSite": "一般",
         "nameForPrinting": "一般",
-        "subject": "1000",
-        "nonBoxOfficeSubject": "1000",
         "typeOfNote": 1,
         "indicatorColor": "rgb(51, 51, 51)",
         "eligibleQuantity": {
             "typeOf": "QuantitativeValue",
             "value": 1,
             "unitCode": "C62"
+        },
+        "eligibleMovieTicketType": "",
+        "accounting": {
+            "typeOf": "Accounting",
+            "operatingRevenue": "1000",
+            "accountsReceivable": 1800
         }
     },
     {
@@ -39,14 +43,18 @@
         "availability": "InStock",
         "nameForManagementSite": "シニア",
         "nameForPrinting": "シニア",
-        "subject": "1000",
-        "nonBoxOfficeSubject": "1000",
         "typeOfNote": 1,
         "indicatorColor": "rgb(51, 51, 51)",
         "eligibleQuantity": {
             "typeOf": "QuantitativeValue",
             "value": 1,
             "unitCode": "C62"
+        },
+        "eligibleMovieTicketType": "",
+        "accounting": {
+            "typeOf": "Accounting",
+            "operatingRevenue": "1000",
+            "accountsReceivable": 1100
         }
     },
     {
@@ -64,14 +72,18 @@
         "availability": "InStock",
         "nameForManagementSite": "レディースデー",
         "nameForPrinting": "レディースデー",
-        "subject": "1000",
-        "nonBoxOfficeSubject": "1000",
         "typeOfNote": 1,
         "indicatorColor": "rgb(51, 51, 51)",
         "eligibleQuantity": {
             "typeOf": "QuantitativeValue",
             "value": 1,
             "unitCode": "C62"
+        },
+        "eligibleMovieTicketType": "",
+        "accounting": {
+            "typeOf": "Accounting",
+            "operatingRevenue": "1000",
+            "accountsReceivable": 1100
         }
     },
     {
@@ -89,14 +101,18 @@
         "availability": "InStock",
         "nameForManagementSite": "ファーストデー",
         "nameForPrinting": "ファーストデー",
-        "subject": "1000",
-        "nonBoxOfficeSubject": "1000",
         "typeOfNote": 1,
         "indicatorColor": "rgb(51, 51, 51)",
         "eligibleQuantity": {
             "typeOf": "QuantitativeValue",
             "value": 1,
             "unitCode": "C62"
+        },
+        "eligibleMovieTicketType": "",
+        "accounting": {
+            "typeOf": "Accounting",
+            "operatingRevenue": "1000",
+            "accountsReceivable": 1100
         }
     },
     {
@@ -114,14 +130,18 @@
         "availability": "InStock",
         "nameForManagementSite": "夫婦50割引",
         "nameForPrinting": "夫婦50割引",
-        "subject": "1000",
-        "nonBoxOfficeSubject": "1000",
         "typeOfNote": 1,
         "indicatorColor": "rgb(51, 51, 51)",
         "eligibleQuantity": {
             "typeOf": "QuantitativeValue",
             "value": 2,
             "unitCode": "C62"
+        },
+        "eligibleMovieTicketType": "",
+        "accounting": {
+            "typeOf": "Accounting",
+            "operatingRevenue": "1000",
+            "accountsReceivable": 2200
         }
     },
     {
@@ -139,14 +159,18 @@
         "availability": "InStock",
         "nameForManagementSite": "障がい者割引",
         "nameForPrinting": "障がい者割引",
-        "subject": "1000",
-        "nonBoxOfficeSubject": "1000",
         "typeOfNote": 1,
         "indicatorColor": "rgb(51, 51, 51)",
         "eligibleQuantity": {
             "typeOf": "QuantitativeValue",
             "value": 1,
             "unitCode": "C62"
+        },
+        "eligibleMovieTicketType": "",
+        "accounting": {
+            "typeOf": "Accounting",
+            "operatingRevenue": "1000",
+            "accountsReceivable": 1000
         }
     },
     {
@@ -164,14 +188,18 @@
         "availability": "InStock",
         "nameForManagementSite": "高・中・小・幼児",
         "nameForPrinting": "高・中・小・幼児",
-        "subject": "1000",
-        "nonBoxOfficeSubject": "1000",
         "typeOfNote": 1,
         "indicatorColor": "rgb(51, 51, 51)",
         "eligibleQuantity": {
             "typeOf": "QuantitativeValue",
             "value": 1,
             "unitCode": "C62"
+        },
+        "eligibleMovieTicketType": "",
+        "accounting": {
+            "typeOf": "Accounting",
+            "operatingRevenue": "1000",
+            "accountsReceivable": 1000
         }
     },
     {
@@ -189,14 +217,18 @@
         "availability": "InStock",
         "nameForManagementSite": "大学生",
         "nameForPrinting": "大学生",
-        "subject": "1000",
-        "nonBoxOfficeSubject": "1000",
         "typeOfNote": 1,
         "indicatorColor": "rgb(51, 51, 51)",
         "eligibleQuantity": {
             "typeOf": "QuantitativeValue",
             "value": 1,
             "unitCode": "C62"
+        },
+        "eligibleMovieTicketType": "",
+        "accounting": {
+            "typeOf": "Accounting",
+            "operatingRevenue": "1000",
+            "accountsReceivable": 1500
         }
     },
     {
@@ -209,19 +241,52 @@
             "ja": "全国券",
             "en": "Free Ticket"
         },
-        "price": 1800,
+        "price": 0,
         "priceCurrency": "JPY",
         "availability": "InStoreOnly",
         "nameForManagementSite": "全国券",
         "nameForPrinting": "全国券",
-        "subject": "3000",
-        "nonBoxOfficeSubject": "3000",
         "typeOfNote": 3,
         "indicatorColor": "rgb(51, 51, 51)",
         "eligibleQuantity": {
             "typeOf": "QuantitativeValue",
             "value": 1,
             "unitCode": "C62"
+        },
+        "eligibleMovieTicketType": "",
+        "accounting": {
+            "typeOf": "Accounting",
+            "operatingRevenue": "3000",
+            "accountsReceivable": 1800
+        }
+    },
+    {
+        "id": "901",
+        "name": {
+            "ja": "ムビチケ一般",
+            "en": "Movie Ticket"
+        },
+        "description": {
+            "ja": "ムビチケ一般",
+            "en": "Movie Ticket"
+        },
+        "price": 0,
+        "priceCurrency": "JPY",
+        "availability": "InStock",
+        "nameForManagementSite": "ムビチケ一般",
+        "nameForPrinting": "ムビチケ一般",
+        "typeOfNote": 3,
+        "indicatorColor": "rgb(51, 51, 51)",
+        "eligibleQuantity": {
+            "typeOf": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "C62"
+        },
+        "eligibleMovieTicketType": "01",
+        "accounting": {
+            "typeOf": "Accounting",
+            "operatingRevenue": "901",
+            "accountsReceivable": 1400
         }
     }
 ]

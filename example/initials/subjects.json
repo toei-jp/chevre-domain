@@ -14,5 +14,13 @@
         "subjectName": "無料券",
         "detailCd": "3000",
         "detailName": "無料券"
+    },
+    {
+        "subjectClassificationCd": "901",
+        "subjectClassificationName": "ムビチケ一般",
+        "subjectCd": "901",
+        "subjectName": "ムビチケ一般",
+        "detailCd": "901",
+        "detailName": "ムビチケ一般"
     }
 ]
