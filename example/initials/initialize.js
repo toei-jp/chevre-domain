@@ -1,6 +1,8 @@
 const domain = require('../../lib');
 
 const boxOfficeTypes = require('./boxOfficeTypes');
+const distributions = require('./distributions');
+const movies = require('./movies');
 const places = require('./places');
 const priceSpecifications = require('./priceSpecifications');
 const subjects = require('./subjects');
@@ -55,6 +57,12 @@ async function main() {
     }));
     await Promise.all(ticketTypeGroups.map(async (ticketTypeGroup) => {
         await ticketTypeRepo.createTicketTypeGroup(ticketTypeGroup);
+    }));
+    await Promise.all(distributions.map(async (distribution) => {
+        await distributionRepo.createDistribution(distribution);
+    }));
+    await Promise.all(movies.map(async (movie) => {
+        await creativeWorkRepo.saveMovie(movie);
     }));
 
     await domain.mongoose.disconnect();

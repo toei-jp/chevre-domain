@@ -1,0 +1,17 @@
+[
+    {
+        "identifier": "1622100",
+        "typeOf": "Movie",
+        "contentRating": "G",
+        "datePublished": "2018-10-31T15:00:00.000Z",
+        "distribution": "0001",
+        "duration": "PT2H3M",
+        "name": "ペット",
+        "offers": {
+            "typeOf": "Offer",
+            "priceCurrency": "JPY",
+            "availabilityEnds": "2028-10-31T15:00:00.000Z"
+        },
+        "subtitle": "サブタイトル"
+    }
+]
