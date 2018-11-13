@@ -282,6 +282,7 @@ export class MongoRepository {
             }
         ).exec();
     }
+
     /**
      * 関連券種グループリスト
      */

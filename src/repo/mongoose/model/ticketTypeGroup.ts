@@ -13,6 +13,7 @@ const schema = new mongoose.Schema(
     {
         _id: String,
         name: multilingualString,
+        alternateName: multilingualString,
         description: multilingualString,
         notes: multilingualString,
         ticketTypes: [{

@@ -169,6 +169,7 @@ export class MongoRepository {
 
         return andConditions;
     }
+
     public static CREATE_SCREENING_EVENT_SERIES_MONGO_CONDITIONS(params: factory.event.screeningEventSeries.ISearchConditions) {
         const andConditions: any[] = [
             {
@@ -263,6 +264,7 @@ export class MongoRepository {
 
         return andConditions;
     }
+
     /**
      * 上映イベントを保管する
      */
@@ -292,6 +294,7 @@ export class MongoRepository {
 
         return event;
     }
+
     /**
      * 上映イベントを保管する
      */
@@ -321,6 +324,7 @@ export class MongoRepository {
 
         return event;
     }
+
     /**
      * 複数の上映イベントを保管する
      */
@@ -335,6 +339,7 @@ export class MongoRepository {
 
         return docs.map((doc) => doc.toObject());
     }
+
     public async countScreeningEvents(params: factory.event.screeningEvent.ISearchConditions): Promise<number> {
         const conditions = MongoRepository.CREATE_SCREENING_EVENT_MONGO_CONDITIONS(params);
 
@@ -343,6 +348,7 @@ export class MongoRepository {
         ).setOptions({ maxTimeMS: 10000 })
             .exec();
     }
+
     /**
      * 上映イベントを検索する
      */
@@ -371,6 +377,7 @@ export class MongoRepository {
 
         return query.setOptions({ maxTimeMS: 10000 }).exec().then((docs) => docs.map((doc) => doc.toObject()));
     }
+
     public async countScreeningEventSeries(params: factory.event.screeningEventSeries.ISearchConditions): Promise<number> {
         const conditions = MongoRepository.CREATE_SCREENING_EVENT_SERIES_MONGO_CONDITIONS(params);
 
@@ -379,6 +386,7 @@ export class MongoRepository {
         ).setOptions({ maxTimeMS: 10000 })
             .exec();
     }
+
     /**
      * 上映イベントシリーズを検索する
      */
@@ -407,6 +415,7 @@ export class MongoRepository {
 
         return query.setOptions({ maxTimeMS: 10000 }).exec().then((docs) => docs.map((doc) => doc.toObject()));
     }
+
     /**
      * IDでイベントを取得する
      */
@@ -414,7 +423,7 @@ export class MongoRepository {
         typeOf: T;
         id: string;
     }): Promise<factory.event.IEvent<T>> {
-        const event = await this.eventModel.findOne(
+        const doc = await this.eventModel.findOne(
             {
                 typeOf: params.typeOf,
                 _id: params.id
@@ -425,24 +434,10 @@ export class MongoRepository {
                 updatedAt: 0
             }
         ).exec();
-        if (event === null) {
+        if (doc === null) {
             throw new factory.errors.NotFound('Event');
         }
 
-        return event.toObject();
-    }
-    /**
-     * IDでイベントを削除する
-     */
-    public async deleteById(params: {
-        typeOf: factory.eventType;
-        id: string;
-    }): Promise<void> {
-        await this.eventModel.findOneAndRemove(
-            {
-                typeOf: params.typeOf,
-                _id: params.id
-            }
-        ).exec();
+        return doc.toObject();
     }
 }
