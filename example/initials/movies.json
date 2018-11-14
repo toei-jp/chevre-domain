@@ -10,8 +10,53 @@
         "offers": {
             "typeOf": "Offer",
             "priceCurrency": "JPY",
-            "availabilityEnds": "2028-10-31T15:00:00.000Z"
+            "availabilityEnds": "2028-12-31T15:00:00.000Z"
         },
         "subtitle": "サブタイトル"
+    },
+    {
+        "identifier": "1212510",
+        "typeOf": "Movie",
+        "contentRating": "G",
+        "datePublished": "2018-10-31T15:00:00.000Z",
+        "distribution": "0001",
+        "duration": "PT1H30M",
+        "name": "ドラゴンボール超 ブロリー",
+        "offers": {
+            "typeOf": "Offer",
+            "priceCurrency": "JPY",
+            "availabilityEnds": "2028-12-31T15:00:00.000Z"
+        },
+        "subtitle": "「超」劇場版、始まる――。"
+    },
+    {
+        "identifier": "1212964",
+        "typeOf": "Movie",
+        "contentRating": "G",
+        "datePublished": "2018-10-31T15:00:00.000Z",
+        "distribution": "0001",
+        "duration": "PT1H20M",
+        "name": "映画ＨＵＧっと！プリキュア♡ふたりはプリキュアオールスターズメモリーズ",
+        "offers": {
+            "typeOf": "Offer",
+            "priceCurrency": "JPY",
+            "availabilityEnds": "2028-12-31T15:00:00.000Z"
+        },
+        "subtitle": "１５周年記念映画は、≪最新≫と≪初代≫の最強タッグで映画化決定！！“ぶっちゃけありえない！？”　夢のコラボが遂に実現！"
+    },
+    {
+        "identifier": "9000001",
+        "typeOf": "Movie",
+        "contentRating": "G",
+        "datePublished": "2018-10-31T15:00:00.000Z",
+        "distribution": "0002",
+        "duration": "PT2H5M",
+        "name": "コーヒーが冷めないうちに",
+        "offers": {
+            "typeOf": "Offer",
+            "priceCurrency": "JPY",
+            "availabilityEnds": "2028-12-31T15:00:00.000Z"
+        },
+        "subtitle": ""
     }
 ]

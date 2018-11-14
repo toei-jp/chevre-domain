@@ -108,7 +108,7 @@ export function start(
                     accounting: {
                         typeOf: 'Accounting',
                         accountsReceivable: totalPrice,
-                        operatingRevenue: { id: '' }
+                        operatingRevenue: { typeOf: 'AccountTitle', identifier: '', name: '' }
                     },
                     typeOfNote: 0,
                     nameForManagementSite: '',

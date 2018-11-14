@@ -248,6 +248,37 @@
         }
     },
     {
+        "id": "1009",
+        "name": {
+            "ja": "WEB割",
+            "en": "Web Discount"
+        },
+        "description": {
+            "ja": "WEB割",
+            "en": "Web Discount"
+        },
+        "price": 1000,
+        "priceCurrency": "JPY",
+        "availability": "OnlineOnly",
+        "nameForManagementSite": "WEB割",
+        "nameForPrinting": "WEB割",
+        "typeOfNote": 1,
+        "indicatorColor": "rgb(51, 51, 51)",
+        "eligibleQuantity": {
+            "typeOf": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "C62"
+        },
+        "eligibleMovieTicketType": "",
+        "accounting": {
+            "typeOf": "Accounting",
+            "operatingRevenue": {
+                "id": "1000"
+            },
+            "accountsReceivable": 1000
+        }
+    },
+    {
         "id": "3001",
         "name": {
             "ja": "全国券",
