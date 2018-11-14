@@ -24,7 +24,9 @@
         "eligibleMovieTicketType": "",
         "accounting": {
             "typeOf": "Accounting",
-            "operatingRevenue": "1000",
+            "operatingRevenue": {
+                "id": "1000"
+            },
             "accountsReceivable": 1800
         }
     },
@@ -53,7 +55,9 @@
         "eligibleMovieTicketType": "",
         "accounting": {
             "typeOf": "Accounting",
-            "operatingRevenue": "1000",
+            "operatingRevenue": {
+                "id": "1000"
+            },
             "accountsReceivable": 1100
         }
     },
@@ -82,7 +86,9 @@
         "eligibleMovieTicketType": "",
         "accounting": {
             "typeOf": "Accounting",
-            "operatingRevenue": "1000",
+            "operatingRevenue": {
+                "id": "1000"
+            },
             "accountsReceivable": 1100
         }
     },
@@ -111,7 +117,9 @@
         "eligibleMovieTicketType": "",
         "accounting": {
             "typeOf": "Accounting",
-            "operatingRevenue": "1000",
+            "operatingRevenue": {
+                "id": "1000"
+            },
             "accountsReceivable": 1100
         }
     },
@@ -140,7 +148,9 @@
         "eligibleMovieTicketType": "",
         "accounting": {
             "typeOf": "Accounting",
-            "operatingRevenue": "1000",
+            "operatingRevenue": {
+                "id": "1000"
+            },
             "accountsReceivable": 2200
         }
     },
@@ -169,7 +179,9 @@
         "eligibleMovieTicketType": "",
         "accounting": {
             "typeOf": "Accounting",
-            "operatingRevenue": "1000",
+            "operatingRevenue": {
+                "id": "1000"
+            },
             "accountsReceivable": 1000
         }
     },
@@ -198,7 +210,9 @@
         "eligibleMovieTicketType": "",
         "accounting": {
             "typeOf": "Accounting",
-            "operatingRevenue": "1000",
+            "operatingRevenue": {
+                "id": "1000"
+            },
             "accountsReceivable": 1000
         }
     },
@@ -227,7 +241,9 @@
         "eligibleMovieTicketType": "",
         "accounting": {
             "typeOf": "Accounting",
-            "operatingRevenue": "1000",
+            "operatingRevenue": {
+                "id": "1000"
+            },
             "accountsReceivable": 1500
         }
     },
@@ -256,7 +272,9 @@
         "eligibleMovieTicketType": "",
         "accounting": {
             "typeOf": "Accounting",
-            "operatingRevenue": "3000",
+            "operatingRevenue": {
+                "id": "3000"
+            },
             "accountsReceivable": 1800
         }
     },
@@ -285,7 +303,9 @@
         "eligibleMovieTicketType": "01",
         "accounting": {
             "typeOf": "Accounting",
-            "operatingRevenue": "901",
+            "operatingRevenue": {
+                "id": "901"
+            },
             "accountsReceivable": 1400
         }
     }
