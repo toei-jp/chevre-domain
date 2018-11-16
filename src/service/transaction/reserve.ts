@@ -70,7 +70,7 @@ export function start(
 
         // チケット存在確認
         const ticketOffers = await OfferService.searchScreeningEventTicketOffers({ eventId: params.object.event.id })(repos);
-        const ticketTypes = await repos.ticketType.findByTicketGroupId({ ticketGroupId: screeningEvent.ticketTypeGroup });
+        const ticketTypes = await repos.ticketType.findByTicketGroupId({ ticketGroupId: screeningEvent.offers.category.id });
         debug('available ticket type:', ticketTypes);
 
         // 予約番号発行
