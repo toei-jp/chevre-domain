@@ -82,7 +82,7 @@
         "availability": "InStock",
         "priceSpecification": {
             "typeOf": "UnitPriceSpecification",
-            "price": 1100,
+            "price": 1000,
             "priceCurrency": "JPY",
             "referenceQuantity": {
                 "typeOf": "QuantitativeValue",
@@ -96,7 +96,7 @@
                     "identifier": "1000",
                     "name": ""
                 },
-                "accountsReceivable": 1100
+                "accountsReceivable": 1000
             }
         },
         "nameForManagementSite": "レディースデー",
@@ -117,7 +117,7 @@
         "availability": "InStock",
         "priceSpecification": {
             "typeOf": "UnitPriceSpecification",
-            "price": 1100,
+            "price": 1000,
             "priceCurrency": "JPY",
             "referenceQuantity": {
                 "typeOf": "QuantitativeValue",
@@ -131,7 +131,7 @@
                     "identifier": "1000",
                     "name": ""
                 },
-                "accountsReceivable": 1100
+                "accountsReceivable": 1000
             }
         },
         "nameForManagementSite": "ファーストデー",
@@ -311,6 +311,41 @@
         },
         "nameForManagementSite": "WEB割",
         "nameForPrinting": "WEB割",
+        "typeOfNote": 1,
+        "indicatorColor": "rgb(51, 51, 51)"
+    },
+    {
+        "id": "1010",
+        "name": {
+            "ja": "レイトショー",
+            "en": "Late"
+        },
+        "description": {
+            "ja": "レイトショー",
+            "en": "Late"
+        },
+        "availability": "InStock",
+        "priceSpecification": {
+            "typeOf": "UnitPriceSpecification",
+            "price": 1300,
+            "priceCurrency": "JPY",
+            "referenceQuantity": {
+                "typeOf": "QuantitativeValue",
+                "value": 1,
+                "unitCode": "C62"
+            },
+            "accounting": {
+                "typeOf": "Accounting",
+                "operatingRevenue": {
+                    "typeOf": "AccountTitle",
+                    "identifier": "1000",
+                    "name": ""
+                },
+                "accountsReceivable": 1300
+            }
+        },
+        "nameForManagementSite": "レイトショー",
+        "nameForPrinting": "レイトショー",
         "typeOfNote": 1,
         "indicatorColor": "rgb(51, 51, 51)"
     },

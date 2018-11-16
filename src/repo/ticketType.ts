@@ -41,7 +41,7 @@ export class MongoRepository {
         }
         if (params.price !== undefined) {
             andConditions.push({
-                price: { $lte: params.price }
+                'priceSpecification.price': { $lte: params.price }
             });
         }
         // idHasChoose
