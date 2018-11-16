@@ -1,10 +1,18 @@
 import * as mongoose from 'mongoose';
 
 import multilingualString from '../schemaTypes/multilingualString';
-import BoxOfficeType from './boxOfficeType';
 import TicketType from './ticketType';
 
 const safe = { j: true, w: 'majority', wtimeout: 10000 };
+
+const boxOfficeTypeSchema = new mongoose.Schema(
+    {},
+    {
+        id: false,
+        _id: false,
+        strict: false
+    }
+);
 
 /**
  * 券種グループスキーマ
@@ -21,11 +29,7 @@ const schema = new mongoose.Schema(
             ref: TicketType.modelName,
             required: true
         }],
-        boxOfficeType: {
-            type: String,
-            ref: BoxOfficeType.modelName,
-            required: true
-        }
+        boxOfficeType: boxOfficeTypeSchema
     },
     {
         collection: 'ticketTypeGroups',
