@@ -15,7 +15,12 @@ export class MongoRepository {
 
     public static CREATE_MONGO_CONDITIONS(params: factory.distributions.distribute.ISearchConditions) {
         // MongoDB検索条件
-        const andConditions: any[] = [];
+        const andConditions: any[] = [
+            {
+                _id: { $exists: true }
+            }
+        ];
+
         // tslint:disable-next-line:no-single-line-block-comment
         /* istanbul ignore else */
         if (params.name !== undefined) {
@@ -24,7 +29,7 @@ export class MongoRepository {
         // tslint:disable-next-line:no-single-line-block-comment
         /* istanbul ignore else */
         if (params.id !== undefined) {
-            andConditions.push({ _id: params.id});
+            andConditions.push({ _id: params.id });
         }
 
         return andConditions;

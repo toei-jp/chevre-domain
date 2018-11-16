@@ -20,7 +20,9 @@
             "ja": "通常興行",
             "en": "General"
         },
-        "boxOfficeType": "0001"
+        "boxOfficeType": {
+            "id": "0001"
+        }
     },
     {
         "id": "0002",
@@ -43,7 +45,9 @@
             "ja": "本興行",
             "en": "Main"
         },
-        "boxOfficeType": "0002"
+        "boxOfficeType": {
+            "id": "0002"
+        }
     },
     {
         "id": "0003",
@@ -66,7 +70,9 @@
             "ja": "特別公演",
             "en": "Special"
         },
-        "boxOfficeType": "0003"
+        "boxOfficeType": {
+            "id": "0003"
+        }
     },
     {
         "id": "0004",
@@ -89,7 +95,9 @@
             "ja": "レイトショー",
             "en": "Late"
         },
-        "boxOfficeType": "0004"
+        "boxOfficeType": {
+            "id": "0004"
+        }
     },
     {
         "id": "0005",
@@ -112,6 +120,8 @@
             "ja": "レディースデイ",
             "en": "Ladies Day"
         },
-        "boxOfficeType": "0005"
+        "boxOfficeType": {
+            "id": "0005"
+        }
     }
 ]

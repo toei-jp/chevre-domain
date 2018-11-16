@@ -58,5 +58,20 @@
             "availabilityEnds": "2028-12-31T15:00:00.000Z"
         },
         "subtitle": ""
+    },
+    {
+        "identifier": "03000000571",
+        "typeOf": "Movie",
+        "contentRating": "R15+",
+        "datePublished": "2018-10-31T15:00:00.000Z",
+        "distribution": "0001",
+        "duration": "PT1H22M",
+        "name": "怪猫トルコ風呂",
+        "offers": {
+            "typeOf": "Offer",
+            "priceCurrency": "JPY",
+            "availabilityEnds": "2028-12-31T15:00:00.000Z"
+        },
+        "subtitle": ""
     }
 ]
