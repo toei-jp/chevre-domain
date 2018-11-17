@@ -10,10 +10,12 @@ import TicketTypeGroupModel from './mongoose/model/ticketTypeGroup';
 export class MongoRepository {
     public readonly ticketTypeModel: typeof TicketTypeModel;
     public readonly ticketTypeGroupModel: typeof TicketTypeGroupModel;
+
     constructor(connection: Connection) {
         this.ticketTypeModel = connection.model(TicketTypeModel.modelName);
         this.ticketTypeGroupModel = connection.model(TicketTypeGroupModel.modelName);
     }
+
     public static CREATE_TICKET_TYPE_MONGO_CONDITIONS(params: factory.ticketType.ITicketTypeSearchConditions) {
         // MongoDB検索条件
         const andConditions: any[] = [
@@ -21,16 +23,15 @@ export class MongoRepository {
                 _id: { $exists: true }
             }
         ];
-        if (params.id !== undefined && params.id !== '') {
-            // andConditions.push({ _id: new RegExp(params.id, 'i') });
-            if (params.id.length > 0) {
-                andConditions.push({
-                    _id: {
-                        $in: params.id
-                    }
-                });
-            }
+
+        if (params.id !== undefined) {
+            andConditions.push({ _id: new RegExp(params.id, 'i') });
         }
+
+        if (Array.isArray(params.ids)) {
+            andConditions.push({ _id: { $in: params.ids } });
+        }
+
         if (params.name !== undefined) {
             andConditions.push({
                 $or: [
@@ -39,19 +40,21 @@ export class MongoRepository {
                 ]
             });
         }
-        if (params.price !== undefined) {
-            andConditions.push({
-                'priceSpecification.price': { $lte: params.price }
-            });
-        }
-        // idHasChoose
-        if (params.idHasChoose !== undefined && params.idHasChoose !== '') {
-            if (params.idHasChoose.length > 0) {
+
+        if (params.priceSpecification !== undefined) {
+            if (typeof params.priceSpecification.maxPrice === 'number') {
                 andConditions.push({
-                    _id: {
-                        $not: {
-                            $in: params.idHasChoose
-                        }
+                    'priceSpecification.price': {
+                        $exists: true,
+                        $lte: params.priceSpecification.maxPrice
+                    }
+                });
+            }
+            if (typeof params.priceSpecification.minPrice === 'number') {
+                andConditions.push({
+                    'priceSpecification.price': {
+                        $exists: true,
+                        $gte: params.priceSpecification.minPrice
                     }
                 });
             }
@@ -59,6 +62,7 @@ export class MongoRepository {
 
         return andConditions;
     }
+
     public static CREATE_TICKET_TYPE_GROUP_MONGO_CONDITIONS(params: factory.ticketType.ITicketTypeGroupSearchConditions) {
         // MongoDB検索条件
         const andConditions: any[] = [
@@ -80,6 +84,7 @@ export class MongoRepository {
 
         return andConditions;
     }
+
     public async findByTicketGroupId(params: { ticketGroupId: string }): Promise<factory.ticketType.ITicketType[]> {
         const ticketTypeGroup = await this.ticketTypeGroupModel.findById(
             params.ticketGroupId,
@@ -107,6 +112,7 @@ export class MongoRepository {
         ).exec()
             .then((docs) => docs.map((doc) => <factory.ticketType.ITicketType>doc.toObject()));
     }
+
     /**
      * 券種グループを作成する
      */
@@ -115,6 +121,7 @@ export class MongoRepository {
 
         return doc.toObject();
     }
+
     /**
      * IDで件券種グループを検索する
      */
@@ -137,6 +144,7 @@ export class MongoRepository {
 
         return doc.toObject();
     }
+
     public async countTicketTypeGroups(
         params: factory.ticketType.ITicketTypeGroupSearchConditions
     ): Promise<number> {
@@ -147,6 +155,7 @@ export class MongoRepository {
         ).setOptions({ maxTimeMS: 10000 })
             .exec();
     }
+
     /**
      * 券種グループを検索する
      */
@@ -171,6 +180,7 @@ export class MongoRepository {
             .exec()
             .then((docs) => docs.map((doc) => doc.toObject()));
     }
+
     /**
      * 券種グループを更新する
      */
@@ -186,6 +196,7 @@ export class MongoRepository {
             throw new factory.errors.NotFound('Ticket type group');
         }
     }
+
     /**
      * 券種グループを削除する
      */
@@ -198,6 +209,7 @@ export class MongoRepository {
             }
         ).exec();
     }
+
     /**
      * 券種を作成する
      */
@@ -206,6 +218,7 @@ export class MongoRepository {
 
         return doc.toObject();
     }
+
     /**
      * IDで件券種を検索する
      */
@@ -228,6 +241,7 @@ export class MongoRepository {
 
         return doc.toObject();
     }
+
     public async countTicketTypes(
         params: factory.ticketType.ITicketTypeSearchConditions
     ): Promise<number> {
@@ -238,6 +252,7 @@ export class MongoRepository {
         ).setOptions({ maxTimeMS: 10000 })
             .exec();
     }
+
     /**
      * 券種を検索する
      */
@@ -256,12 +271,18 @@ export class MongoRepository {
         if (params.limit !== undefined && params.page !== undefined) {
             query.limit(params.limit).skip(params.limit * (params.page - 1));
         }
+        // tslint:disable-next-line:no-single-line-block-comment
+        /* istanbul ignore else */
+        if (params.sort !== undefined) {
+            query.sort(params.sort);
+        }
 
         return query.sort({ _id: 1 })
             .setOptions({ maxTimeMS: 10000 })
             .exec()
             .then((docs) => docs.map((doc) => doc.toObject()));
     }
+
     /**
      * 券種を更新する
      */
@@ -277,6 +298,7 @@ export class MongoRepository {
             throw new factory.errors.NotFound('Ticket type');
         }
     }
+
     /**
      * 券種を削除する
      */
