@@ -1,26 +1,1554 @@
 [
     {
-        "subjectClassificationCd": "1000",
-        "subjectClassificationName": "有料券",
-        "subjectCd": "1000",
-        "subjectName": "有料券",
-        "detailCd": "1000",
-        "detailName": "有料券"
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1100",
+        "detailName": "特別50"
     },
     {
-        "subjectClassificationCd": "3000",
-        "subjectClassificationName": "無料券",
-        "subjectCd": "3000",
-        "subjectName": "無料券",
-        "detailCd": "3000",
-        "detailName": "無料券"
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1101",
+        "detailName": "特別49"
     },
     {
-        "subjectClassificationCd": "901",
-        "subjectClassificationName": "ムビチケ一般",
-        "subjectCd": "901",
-        "subjectName": "ムビチケ一般",
-        "detailCd": "901",
-        "detailName": "ムビチケ一般"
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1102",
+        "detailName": "特別48"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1103",
+        "detailName": "特別47"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1104",
+        "detailName": "特別46"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1105",
+        "detailName": "特別45"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1106",
+        "detailName": "特別44"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1107",
+        "detailName": "特別43"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1108",
+        "detailName": "特別42"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1109",
+        "detailName": "特別41"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1110",
+        "detailName": "特別40"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1111",
+        "detailName": "特別39"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1112",
+        "detailName": "特別38"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1113",
+        "detailName": "特別37"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1114",
+        "detailName": "特別36"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1115",
+        "detailName": "特別35"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1116",
+        "detailName": "特別34"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1117",
+        "detailName": "特別33"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1118",
+        "detailName": "特別32"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1119",
+        "detailName": "特別31"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1120",
+        "detailName": "特別30"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1121",
+        "detailName": "特別29"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1122",
+        "detailName": "特別28"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1123",
+        "detailName": "特別27"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1124",
+        "detailName": "特別26"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1125",
+        "detailName": "特別25"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1126",
+        "detailName": "特別24"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1127",
+        "detailName": "特別23"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1128",
+        "detailName": "特別22"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1129",
+        "detailName": "特別21"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1130",
+        "detailName": "特別20"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1131",
+        "detailName": "特別19"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1210",
+        "detailName": "一般18"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1215",
+        "detailName": "大学15"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1220",
+        "detailName": "高校生10"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1225",
+        "detailName": "中/小10"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1230",
+        "detailName": "幼児10"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1235",
+        "detailName": "シニア11"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1240",
+        "detailName": "障がい者10"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1245",
+        "detailName": "夫婦50割11"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1250",
+        "detailName": "ファーストデー11"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1255",
+        "detailName": "映画の日10"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1300",
+        "detailName": "割引17"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1301",
+        "detailName": "割引16"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1302",
+        "detailName": "割引15"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1303",
+        "detailName": "割引14"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1304",
+        "detailName": "割引13"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1305",
+        "detailName": "割引12"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1306",
+        "detailName": "割引11"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1307",
+        "detailName": "割引10"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1308",
+        "detailName": "割引9"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1309",
+        "detailName": "割引8"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1310",
+        "detailName": "割引7"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1311",
+        "detailName": "割引6"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1312",
+        "detailName": "割引5"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1450",
+        "detailName": "お直り20"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1451",
+        "detailName": "お直り19"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1452",
+        "detailName": "お直り18"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1453",
+        "detailName": "お直り17"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1454",
+        "detailName": "お直り16"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1455",
+        "detailName": "お直り15"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1456",
+        "detailName": "お直り14"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1457",
+        "detailName": "お直り13"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1458",
+        "detailName": "お直り12"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1459",
+        "detailName": "お直り11"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1460",
+        "detailName": "お直り10"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1461",
+        "detailName": "お直り9"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1462",
+        "detailName": "お直り8"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1463",
+        "detailName": "お直り7"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1464",
+        "detailName": "お直り6"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1465",
+        "detailName": "お直り5"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1466",
+        "detailName": "お直り4"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1467",
+        "detailName": "お直り3"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1468",
+        "detailName": "お直り2"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "100",
+        "subjectName": "通常券",
+        "detailCd": "1469",
+        "detailName": "お直り1"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "300",
+        "subjectName": "株招券",
+        "detailCd": "1500",
+        "detailName": "株主"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "300",
+        "subjectName": "株招券",
+        "detailCd": "1501",
+        "detailName": "株総"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "300",
+        "subjectName": "株招券",
+        "detailCd": "1502",
+        "detailName": "アカデミー"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "300",
+        "subjectName": "株招券",
+        "detailCd": "1503",
+        "detailName": "社員"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "300",
+        "subjectName": "株招券",
+        "detailCd": "1504",
+        "detailName": "モニター"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "300",
+        "subjectName": "株招券",
+        "detailCd": "1505",
+        "detailName": "招待"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "300",
+        "subjectName": "株招券",
+        "detailCd": "1506",
+        "detailName": "試写会"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1650",
+        "detailName": "ライブV50"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1651",
+        "detailName": "ライブV49"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1652",
+        "detailName": "ライブV48"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1653",
+        "detailName": "ライブV47"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1654",
+        "detailName": "ライブV46"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1655",
+        "detailName": "ライブV45"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1656",
+        "detailName": "ライブV44"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1657",
+        "detailName": "ライブV43"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1658",
+        "detailName": "ライブV42"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1659",
+        "detailName": "ライブV41"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1660",
+        "detailName": "ライブV40"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1661",
+        "detailName": "ライブV39"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1662",
+        "detailName": "ライブV38"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1663",
+        "detailName": "ライブV37"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1664",
+        "detailName": "ライブV36"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1665",
+        "detailName": "ライブV35"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1666",
+        "detailName": "ライブV34"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1667",
+        "detailName": "ライブV33"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1668",
+        "detailName": "ライブV32"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1669",
+        "detailName": "ライブV31"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1670",
+        "detailName": "ライブV30"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1750",
+        "detailName": "プレイガイド40"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1751",
+        "detailName": "プレイガイド39"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1752",
+        "detailName": "プレイガイド38"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1753",
+        "detailName": "プレイガイド37"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1754",
+        "detailName": "プレイガイド36"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1755",
+        "detailName": "プレイガイド35"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1756",
+        "detailName": "プレイガイド34"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1757",
+        "detailName": "プレイガイド33"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1758",
+        "detailName": "プレイガイド32"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1759",
+        "detailName": "プレイガイド31"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1760",
+        "detailName": "プレイガイド30"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1761",
+        "detailName": "プレイガイド29"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1762",
+        "detailName": "プレイガイド28"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1763",
+        "detailName": "プレイガイド27"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1764",
+        "detailName": "プレイガイド26"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1765",
+        "detailName": "プレイガイド25"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1766",
+        "detailName": "プレイガイド24"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1767",
+        "detailName": "プレイガイド23"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1768",
+        "detailName": "プレイガイド22"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1769",
+        "detailName": "プレイガイド21"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1770",
+        "detailName": "プレイガイド20"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1771",
+        "detailName": "プレイガイド19"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1772",
+        "detailName": "プレイガイド18"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1773",
+        "detailName": "プレイガイド17"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1774",
+        "detailName": "プレイガイド16"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1775",
+        "detailName": "プレイガイド15"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1776",
+        "detailName": "プレイガイド14"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1777",
+        "detailName": "プレイガイド13"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1778",
+        "detailName": "プレイガイド12"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1779",
+        "detailName": "プレイガイド11"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1780",
+        "detailName": "プレイガイド10"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1781",
+        "detailName": "プレイガイド9"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1782",
+        "detailName": "プレイガイド8"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1783",
+        "detailName": "プレイガイド7"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1784",
+        "detailName": "プレイガイド6"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1785",
+        "detailName": "プレイガイド5"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1810",
+        "detailName": "全国券30"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1811",
+        "detailName": "全国券29"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1812",
+        "detailName": "全国券28"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1813",
+        "detailName": "全国券27"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1814",
+        "detailName": "全国券26"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1815",
+        "detailName": "全国券25"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1816",
+        "detailName": "全国券24"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1817",
+        "detailName": "全国券23"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1818",
+        "detailName": "全国券22"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1819",
+        "detailName": "全国券21"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1820",
+        "detailName": "全国券20"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1821",
+        "detailName": "全国券19"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1822",
+        "detailName": "全国券18"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1823",
+        "detailName": "全国券17"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1825",
+        "detailName": "全国券16"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1830",
+        "detailName": "全国券15"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1835",
+        "detailName": "全国券14"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1840",
+        "detailName": "全国券14"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1845",
+        "detailName": "全国券13"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1850",
+        "detailName": "全国券12"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1855",
+        "detailName": "全国券11"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1860",
+        "detailName": "全国券10"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1865",
+        "detailName": "全国券09"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1870",
+        "detailName": "全国券08"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1875",
+        "detailName": "全国券07"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1880",
+        "detailName": "全国券06"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1885",
+        "detailName": "全国券05"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1910",
+        "detailName": "ムビチケ30"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1911",
+        "detailName": "ムビチケ29"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1912",
+        "detailName": "ムビチケ28"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1913",
+        "detailName": "ムビチケ27"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1914",
+        "detailName": "ムビチケ26"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1915",
+        "detailName": "ムビチケ25"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1916",
+        "detailName": "ムビチケ24"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1917",
+        "detailName": "ムビチケ23"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1918",
+        "detailName": "ムビチケ22"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1919",
+        "detailName": "ムビチケ21"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1920",
+        "detailName": "ムビチケ20"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1921",
+        "detailName": "ムビチケ19"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1922",
+        "detailName": "ムビチケ18"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1923",
+        "detailName": "ムビチケ17"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1924",
+        "detailName": "ムビチケ16"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1925",
+        "detailName": "ムビチケ15"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1930",
+        "detailName": "ムビチケ14"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1935",
+        "detailName": "ムビチケ13"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1940",
+        "detailName": "ムビチケ12"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1945",
+        "detailName": "ムビチケ12"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1950",
+        "detailName": "ムビチケ11"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1955",
+        "detailName": "ムビチケ10"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1960",
+        "detailName": "ムビチケ09"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1965",
+        "detailName": "ムビチケ08"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1970",
+        "detailName": "ムビチケ07"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1975",
+        "detailName": "ムビチケ07"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1980",
+        "detailName": "ムビチケ06"
+    },
+    {
+        "subjectClassificationCd": "10",
+        "subjectClassificationName": "興行収入",
+        "subjectCd": "200",
+        "subjectName": "前売券",
+        "detailCd": "1985",
+        "detailName": "ムビチケ05"
     }
 ]
