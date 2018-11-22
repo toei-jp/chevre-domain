@@ -14,7 +14,7 @@
   ],
   "dependencies": {
     "@movieticket/reserve-api-abstract-client": "^1.0.0",
-    "@toei-jp/chevre-factory": "^1.0.0-alpha.41",
+    "@toei-jp/chevre-factory": "^1.0.0-alpha.42",
     "@types/mongoose": "^5.3.1",
     "@types/redis": "^2.8.8",
     "debug": "^3.2.6",
