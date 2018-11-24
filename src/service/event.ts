@@ -10,8 +10,8 @@ type ISearchScreeningEventReservationTicketOperation<T> = (repos: {
  * countTicketTypePerEvent
  */
 export function countTicketTypePerEvent(
-    params: factory.event.screeningEvent.ICountTicketTypePerEventConditions
-): ISearchScreeningEventReservationTicketOperation<factory.event.screeningEvent.ICountTicketTypePerEventResult> {
+    params: factory.agregation.ICountTicketTypePerEventConditions
+): ISearchScreeningEventReservationTicketOperation<factory.agregation.ICountTicketTypePerEventResult> {
     // tslint:disable-next-line:max-func-body-length
     return async (repos: {
         reservation: ReservationRepo;
@@ -23,10 +23,10 @@ export function countTicketTypePerEvent(
                 startThrough: params.startThrough
             }
         });
-        const SALE_TICKET_TYPE = 1;
-        const PRE_SALE_TICKET_TYPE = 2;
-        const FREE_TICKET_TYPE = 3;
-        let events: factory.event.screeningEvent.IEventWithTicketTypeCount[] = [];
+        const SALE_TICKET_TYPE = '1';
+        const PRE_SALE_TICKET_TYPE = '2';
+        const FREE_TICKET_TYPE = '3';
+        let events: factory.agregation.IEventWithTicketTypeCount[] = [];
         reservations.forEach((r) => {
             if (events.find((e) => e.id === r.reservationFor.id) === undefined) {
                 events.push({
@@ -38,17 +38,19 @@ export function countTicketTypePerEvent(
             }
             for (const event of events) {
                 if (event.id === r.reservationFor.id) {
-                    switch (r.reservedTicket.ticketType.typeOfNote) {
-                        case SALE_TICKET_TYPE:
-                            event.saleTicketCount += 1;
-                            break;
-                        case PRE_SALE_TICKET_TYPE:
-                            event.preSaleTicketCount += 1;
-                            break;
-                        case FREE_TICKET_TYPE:
-                            event.freeTicketCount += 1;
-                            break;
-                        default: // 何もしない
+                    if (r.reservedTicket.ticketType.category !== undefined) {
+                        switch (r.reservedTicket.ticketType.category.id) {
+                            case SALE_TICKET_TYPE:
+                                event.saleTicketCount += 1;
+                                break;
+                            case PRE_SALE_TICKET_TYPE:
+                                event.preSaleTicketCount += 1;
+                                break;
+                            case FREE_TICKET_TYPE:
+                                event.freeTicketCount += 1;
+                                break;
+                            default: // 何もしない
+                        }
                     }
                 }
             }

@@ -5,15 +5,6 @@ import TicketType from './ticketType';
 
 const safe = { j: true, w: 'majority', wtimeout: 10000 };
 
-const boxOfficeTypeSchema = new mongoose.Schema(
-    {},
-    {
-        id: false,
-        _id: false,
-        strict: false
-    }
-);
-
 /**
  * 券種グループスキーマ
  */
@@ -29,7 +20,7 @@ const schema = new mongoose.Schema(
             ref: TicketType.modelName,
             required: true
         }],
-        boxOfficeType: boxOfficeTypeSchema
+        itemOffered: mongoose.SchemaTypes.Mixed
     },
     {
         collection: 'ticketTypeGroups',

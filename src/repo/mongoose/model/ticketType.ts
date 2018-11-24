@@ -22,6 +22,9 @@ const schema = new mongoose.Schema(
         typeOf: String,
         name: multilingualString,
         description: multilingualString,
+        category: mongoose.SchemaTypes.Mixed,
+        color: mongoose.SchemaTypes.Mixed,
+        additionalProperty: mongoose.SchemaTypes.Mixed,
         alternateName: multilingualString,
         acceptedPaymentMethod: mongoose.SchemaTypes.Mixed,
         availability: String,
@@ -38,11 +41,7 @@ const schema = new mongoose.Schema(
         priceSpecification: mongoose.SchemaTypes.Mixed,
         validFrom: Date,
         validThrough: Date,
-        accounting: accountingSchema,
-        nameForManagementSite: String,
-        nameForPrinting: String,
-        typeOfNote: Number,
-        indicatorColor: String
+        accounting: accountingSchema
     },
     {
         collection: 'ticketTypes',

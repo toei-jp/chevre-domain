@@ -32,17 +32,18 @@ const schema = new mongoose.Schema(
         identifier: String,
         name: String,
         alternateName: String,
+        alternativeHeadline: String,
         description: String,
         copyrightHolder: copyrightHolderSchema,
         copyrightYear: Number,
         datePublished: Date,
+        distributor: mongoose.SchemaTypes.Mixed,
+        headline: String,
         license: String,
         thumbnailUrl: String,
         duration: String,
         contentRating: String,
-        offers: offersSchema,
-        subtitle: String,
-        distribution: String
+        offers: offersSchema
     },
     {
         collection: 'creativeWorks',
