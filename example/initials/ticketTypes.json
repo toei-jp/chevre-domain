@@ -30,10 +30,19 @@
                 "accountsReceivable": 5000
             }
         },
-        "nameForManagementSite": "特別50",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別50"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "101",
@@ -66,10 +75,19 @@
                 "accountsReceivable": 4900
             }
         },
-        "nameForManagementSite": "特別49",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別49"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "102",
@@ -102,10 +120,19 @@
                 "accountsReceivable": 4800
             }
         },
-        "nameForManagementSite": "特別48",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別48"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "103",
@@ -138,10 +165,19 @@
                 "accountsReceivable": 4700
             }
         },
-        "nameForManagementSite": "特別47",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別47"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "104",
@@ -174,10 +210,19 @@
                 "accountsReceivable": 4600
             }
         },
-        "nameForManagementSite": "特別46",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別46"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "105",
@@ -210,10 +255,19 @@
                 "accountsReceivable": 4500
             }
         },
-        "nameForManagementSite": "特別45",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別45"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "106",
@@ -246,10 +300,19 @@
                 "accountsReceivable": 4400
             }
         },
-        "nameForManagementSite": "特別44",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別44"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "107",
@@ -282,10 +345,19 @@
                 "accountsReceivable": 4300
             }
         },
-        "nameForManagementSite": "特別43",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別43"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "108",
@@ -318,10 +390,19 @@
                 "accountsReceivable": 4200
             }
         },
-        "nameForManagementSite": "特別42",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別42"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "109",
@@ -354,10 +435,19 @@
                 "accountsReceivable": 4100
             }
         },
-        "nameForManagementSite": "特別41",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別41"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "110",
@@ -390,10 +480,19 @@
                 "accountsReceivable": 4000
             }
         },
-        "nameForManagementSite": "特別40",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別40"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "111",
@@ -426,10 +525,19 @@
                 "accountsReceivable": 3900
             }
         },
-        "nameForManagementSite": "特別39",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別39"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "112",
@@ -462,10 +570,19 @@
                 "accountsReceivable": 3800
             }
         },
-        "nameForManagementSite": "特別38",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別38"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "113",
@@ -498,10 +615,19 @@
                 "accountsReceivable": 3700
             }
         },
-        "nameForManagementSite": "特別37",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別37"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "114",
@@ -534,10 +660,19 @@
                 "accountsReceivable": 3600
             }
         },
-        "nameForManagementSite": "特別36",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別36"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "115",
@@ -570,10 +705,19 @@
                 "accountsReceivable": 3500
             }
         },
-        "nameForManagementSite": "特別35",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別35"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "116",
@@ -606,10 +750,19 @@
                 "accountsReceivable": 3400
             }
         },
-        "nameForManagementSite": "特別34",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別34"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "117",
@@ -642,10 +795,19 @@
                 "accountsReceivable": 3300
             }
         },
-        "nameForManagementSite": "特別33",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別33"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "118",
@@ -678,10 +840,19 @@
                 "accountsReceivable": 3200
             }
         },
-        "nameForManagementSite": "特別32",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別32"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "119",
@@ -714,10 +885,19 @@
                 "accountsReceivable": 3100
             }
         },
-        "nameForManagementSite": "特別31",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別31"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "120",
@@ -750,10 +930,19 @@
                 "accountsReceivable": 3000
             }
         },
-        "nameForManagementSite": "特別30",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別30"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "121",
@@ -786,10 +975,19 @@
                 "accountsReceivable": 2900
             }
         },
-        "nameForManagementSite": "特別29",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別29"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "122",
@@ -822,10 +1020,19 @@
                 "accountsReceivable": 2800
             }
         },
-        "nameForManagementSite": "特別28",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別28"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "123",
@@ -858,10 +1065,19 @@
                 "accountsReceivable": 2700
             }
         },
-        "nameForManagementSite": "特別27",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別27"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "124",
@@ -894,10 +1110,19 @@
                 "accountsReceivable": 2600
             }
         },
-        "nameForManagementSite": "特別26",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別26"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "125",
@@ -930,10 +1155,19 @@
                 "accountsReceivable": 2500
             }
         },
-        "nameForManagementSite": "特別25",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別25"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "126",
@@ -966,10 +1200,19 @@
                 "accountsReceivable": 2400
             }
         },
-        "nameForManagementSite": "特別24",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別24"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "127",
@@ -1002,10 +1245,19 @@
                 "accountsReceivable": 2300
             }
         },
-        "nameForManagementSite": "特別23",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別23"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "128",
@@ -1038,10 +1290,19 @@
                 "accountsReceivable": 2200
             }
         },
-        "nameForManagementSite": "特別22",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別22"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "129",
@@ -1074,10 +1335,19 @@
                 "accountsReceivable": 2100
             }
         },
-        "nameForManagementSite": "特別21",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別21"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "130",
@@ -1110,10 +1380,19 @@
                 "accountsReceivable": 2000
             }
         },
-        "nameForManagementSite": "特別20",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別20"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "131",
@@ -1146,10 +1425,19 @@
                 "accountsReceivable": 1900
             }
         },
-        "nameForManagementSite": "特別19",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "特別19"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "210",
@@ -1182,10 +1470,19 @@
                 "accountsReceivable": 1800
             }
         },
-        "nameForManagementSite": "一般",
-        "nameForPrinting": "一般",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "一般"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "一般"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "215",
@@ -1218,10 +1515,19 @@
                 "accountsReceivable": 1500
             }
         },
-        "nameForManagementSite": "大学",
-        "nameForPrinting": "大学生",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "大学"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "大学生"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "220",
@@ -1254,10 +1560,19 @@
                 "accountsReceivable": 1000
             }
         },
-        "nameForManagementSite": "高校生",
-        "nameForPrinting": "高校生",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "高校生"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "高校生"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "225",
@@ -1290,10 +1605,19 @@
                 "accountsReceivable": 1000
             }
         },
-        "nameForManagementSite": "中/小",
-        "nameForPrinting": "中/小学生",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "中/小"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "中/小学生"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "230",
@@ -1326,10 +1650,19 @@
                 "accountsReceivable": 1000
             }
         },
-        "nameForManagementSite": "幼児",
-        "nameForPrinting": "幼児",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "幼児"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "幼児"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "235",
@@ -1362,10 +1695,19 @@
                 "accountsReceivable": 1100
             }
         },
-        "nameForManagementSite": "シニア",
-        "nameForPrinting": "シニア割引",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "シニア"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "シニア割引"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "240",
@@ -1398,10 +1740,19 @@
                 "accountsReceivable": 1000
             }
         },
-        "nameForManagementSite": "障がい者",
-        "nameForPrinting": "障がい者割引",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "障がい者"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "障がい者割引"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "245",
@@ -1434,10 +1785,19 @@
                 "accountsReceivable": 1100
             }
         },
-        "nameForManagementSite": "夫婦50",
-        "nameForPrinting": "夫婦50割引",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "夫婦50"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "夫婦50割引"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "250",
@@ -1470,10 +1830,19 @@
                 "accountsReceivable": 1100
             }
         },
-        "nameForManagementSite": "ファーストデー",
-        "nameForPrinting": "ファーストデー",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ファーストデー"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ファーストデー"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "255",
@@ -1506,10 +1875,19 @@
                 "accountsReceivable": 1000
             }
         },
-        "nameForManagementSite": "映画の日",
-        "nameForPrinting": "映画の日",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "映画の日"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "映画の日"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "300",
@@ -1542,10 +1920,19 @@
                 "accountsReceivable": 1700
             }
         },
-        "nameForManagementSite": "割引17",
-        "nameForPrinting": "割引",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "割引17"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "割引"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "301",
@@ -1578,10 +1965,19 @@
                 "accountsReceivable": 1600
             }
         },
-        "nameForManagementSite": "割引16",
-        "nameForPrinting": "割引",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "割引16"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "割引"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "302",
@@ -1614,10 +2010,19 @@
                 "accountsReceivable": 1500
             }
         },
-        "nameForManagementSite": "割引15",
-        "nameForPrinting": "割引",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "割引15"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "割引"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "303",
@@ -1650,10 +2055,19 @@
                 "accountsReceivable": 1400
             }
         },
-        "nameForManagementSite": "割引14",
-        "nameForPrinting": "割引",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "割引14"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "割引"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "304",
@@ -1686,10 +2100,19 @@
                 "accountsReceivable": 1300
             }
         },
-        "nameForManagementSite": "割引13",
-        "nameForPrinting": "割引",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "割引13"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "割引"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "305",
@@ -1722,10 +2145,19 @@
                 "accountsReceivable": 1200
             }
         },
-        "nameForManagementSite": "割引12",
-        "nameForPrinting": "割引",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "割引12"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "割引"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "306",
@@ -1758,10 +2190,19 @@
                 "accountsReceivable": 1100
             }
         },
-        "nameForManagementSite": "割引11",
-        "nameForPrinting": "割引",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "割引11"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "割引"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "307",
@@ -1794,10 +2235,19 @@
                 "accountsReceivable": 1000
             }
         },
-        "nameForManagementSite": "割引10",
-        "nameForPrinting": "割引",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "割引10"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "割引"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "308",
@@ -1830,10 +2280,19 @@
                 "accountsReceivable": 900
             }
         },
-        "nameForManagementSite": "割引9",
-        "nameForPrinting": "割引",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "割引9"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "割引"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "309",
@@ -1866,10 +2325,19 @@
                 "accountsReceivable": 800
             }
         },
-        "nameForManagementSite": "割引8",
-        "nameForPrinting": "割引",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "割引8"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "割引"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "310",
@@ -1902,10 +2370,19 @@
                 "accountsReceivable": 700
             }
         },
-        "nameForManagementSite": "割引7",
-        "nameForPrinting": "割引",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "割引7"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "割引"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "311",
@@ -1938,10 +2415,19 @@
                 "accountsReceivable": 600
             }
         },
-        "nameForManagementSite": "割引6",
-        "nameForPrinting": "割引",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "割引6"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "割引"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "312",
@@ -1974,10 +2460,19 @@
                 "accountsReceivable": 500
             }
         },
-        "nameForManagementSite": "割引5",
-        "nameForPrinting": "割引",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "割引5"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "割引"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "450",
@@ -2010,10 +2505,19 @@
                 "accountsReceivable": 2000
             }
         },
-        "nameForManagementSite": "お直り20",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り20"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "451",
@@ -2046,10 +2550,19 @@
                 "accountsReceivable": 1900
             }
         },
-        "nameForManagementSite": "お直り19",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り19"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "452",
@@ -2082,10 +2595,19 @@
                 "accountsReceivable": 1800
             }
         },
-        "nameForManagementSite": "お直り18",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り18"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "453",
@@ -2118,10 +2640,19 @@
                 "accountsReceivable": 1700
             }
         },
-        "nameForManagementSite": "お直り17",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り17"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "454",
@@ -2154,10 +2685,19 @@
                 "accountsReceivable": 1600
             }
         },
-        "nameForManagementSite": "お直り16",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り16"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "455",
@@ -2190,10 +2730,19 @@
                 "accountsReceivable": 1500
             }
         },
-        "nameForManagementSite": "お直り15",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り15"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "456",
@@ -2226,10 +2775,19 @@
                 "accountsReceivable": 1400
             }
         },
-        "nameForManagementSite": "お直り14",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り14"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "457",
@@ -2262,10 +2820,19 @@
                 "accountsReceivable": 1300
             }
         },
-        "nameForManagementSite": "お直り13",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り13"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "458",
@@ -2298,10 +2865,19 @@
                 "accountsReceivable": 1200
             }
         },
-        "nameForManagementSite": "お直り12",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り12"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "459",
@@ -2334,10 +2910,19 @@
                 "accountsReceivable": 1100
             }
         },
-        "nameForManagementSite": "お直り11",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り11"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "460",
@@ -2370,10 +2955,19 @@
                 "accountsReceivable": 1000
             }
         },
-        "nameForManagementSite": "お直り10",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り10"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "461",
@@ -2406,10 +3000,19 @@
                 "accountsReceivable": 900
             }
         },
-        "nameForManagementSite": "お直り9",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り9"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "462",
@@ -2442,10 +3045,19 @@
                 "accountsReceivable": 800
             }
         },
-        "nameForManagementSite": "お直り8",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り8"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "463",
@@ -2478,10 +3090,19 @@
                 "accountsReceivable": 700
             }
         },
-        "nameForManagementSite": "お直り7",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り7"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "464",
@@ -2514,10 +3135,19 @@
                 "accountsReceivable": 600
             }
         },
-        "nameForManagementSite": "お直り6",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り6"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "465",
@@ -2550,10 +3180,19 @@
                 "accountsReceivable": 500
             }
         },
-        "nameForManagementSite": "お直り5",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り5"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "466",
@@ -2586,10 +3225,19 @@
                 "accountsReceivable": 400
             }
         },
-        "nameForManagementSite": "お直り4",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り4"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "467",
@@ -2622,10 +3270,19 @@
                 "accountsReceivable": 300
             }
         },
-        "nameForManagementSite": "お直り3",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り3"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "468",
@@ -2658,10 +3315,19 @@
                 "accountsReceivable": 200
             }
         },
-        "nameForManagementSite": "お直り2",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り2"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "469",
@@ -2694,10 +3360,19 @@
                 "accountsReceivable": 100
             }
         },
-        "nameForManagementSite": "お直り1",
-        "nameForPrinting": "差額",
-        "typeOfNote": 1,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "お直り1"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "差額"
+            }
+        ],
+        "category": {
+            "id": "1"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "500",
@@ -2730,10 +3405,19 @@
                 "accountsReceivable": 0
             }
         },
-        "nameForManagementSite": "株主",
-        "nameForPrinting": "株主優待",
-        "typeOfNote": 3,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "株主"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "株主優待"
+            }
+        ],
+        "category": {
+            "id": "3"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "501",
@@ -2766,10 +3450,19 @@
                 "accountsReceivable": 0
             }
         },
-        "nameForManagementSite": "株総",
-        "nameForPrinting": "総会出席票",
-        "typeOfNote": 3,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "株総"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "総会出席票"
+            }
+        ],
+        "category": {
+            "id": "3"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "502",
@@ -2802,10 +3495,19 @@
                 "accountsReceivable": 0
             }
         },
-        "nameForManagementSite": "アカデミー",
-        "nameForPrinting": "アカデミー会員",
-        "typeOfNote": 3,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "アカデミー"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "アカデミー会員"
+            }
+        ],
+        "category": {
+            "id": "3"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "503",
@@ -2838,10 +3540,19 @@
                 "accountsReceivable": 0
             }
         },
-        "nameForManagementSite": "社員",
-        "nameForPrinting": "社員",
-        "typeOfNote": 3,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "社員"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "社員"
+            }
+        ],
+        "category": {
+            "id": "3"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "504",
@@ -2874,10 +3585,19 @@
                 "accountsReceivable": 0
             }
         },
-        "nameForManagementSite": "モニター",
-        "nameForPrinting": "ＣＭモニター",
-        "typeOfNote": 3,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "モニター"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ＣＭモニター"
+            }
+        ],
+        "category": {
+            "id": "3"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "505",
@@ -2910,10 +3630,19 @@
                 "accountsReceivable": 0
             }
         },
-        "nameForManagementSite": "招待",
-        "nameForPrinting": "ご招待",
-        "typeOfNote": 3,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "招待"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ご招待"
+            }
+        ],
+        "category": {
+            "id": "3"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "506",
@@ -2946,10 +3675,19 @@
                 "accountsReceivable": 0
             }
         },
-        "nameForManagementSite": "試写会",
-        "nameForPrinting": "試写会",
-        "typeOfNote": 3,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "試写会"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "試写会"
+            }
+        ],
+        "category": {
+            "id": "3"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "650",
@@ -2982,10 +3720,19 @@
                 "accountsReceivable": 5000
             }
         },
-        "nameForManagementSite": "ライブV50",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV50"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "651",
@@ -3018,10 +3765,19 @@
                 "accountsReceivable": 4900
             }
         },
-        "nameForManagementSite": "ライブV49",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV49"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "652",
@@ -3054,10 +3810,19 @@
                 "accountsReceivable": 4800
             }
         },
-        "nameForManagementSite": "ライブV48",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV48"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "653",
@@ -3090,10 +3855,19 @@
                 "accountsReceivable": 4700
             }
         },
-        "nameForManagementSite": "ライブV47",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV47"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "654",
@@ -3126,10 +3900,19 @@
                 "accountsReceivable": 4600
             }
         },
-        "nameForManagementSite": "ライブV46",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV46"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "655",
@@ -3162,10 +3945,19 @@
                 "accountsReceivable": 4500
             }
         },
-        "nameForManagementSite": "ライブV45",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV45"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "656",
@@ -3198,10 +3990,19 @@
                 "accountsReceivable": 4400
             }
         },
-        "nameForManagementSite": "ライブV44",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV44"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "657",
@@ -3234,10 +4035,19 @@
                 "accountsReceivable": 4300
             }
         },
-        "nameForManagementSite": "ライブV43",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV43"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "658",
@@ -3270,10 +4080,19 @@
                 "accountsReceivable": 4200
             }
         },
-        "nameForManagementSite": "ライブV42",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV42"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "659",
@@ -3306,10 +4125,19 @@
                 "accountsReceivable": 4100
             }
         },
-        "nameForManagementSite": "ライブV41",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV41"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "660",
@@ -3342,10 +4170,19 @@
                 "accountsReceivable": 4000
             }
         },
-        "nameForManagementSite": "ライブV40",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV40"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "661",
@@ -3378,10 +4215,19 @@
                 "accountsReceivable": 3900
             }
         },
-        "nameForManagementSite": "ライブV39",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV39"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "662",
@@ -3414,10 +4260,19 @@
                 "accountsReceivable": 3800
             }
         },
-        "nameForManagementSite": "ライブV38",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV38"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "663",
@@ -3450,10 +4305,19 @@
                 "accountsReceivable": 3700
             }
         },
-        "nameForManagementSite": "ライブV37",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV37"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "664",
@@ -3486,10 +4350,19 @@
                 "accountsReceivable": 3600
             }
         },
-        "nameForManagementSite": "ライブV36",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV36"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "665",
@@ -3522,10 +4395,19 @@
                 "accountsReceivable": 3500
             }
         },
-        "nameForManagementSite": "ライブV35",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV35"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "666",
@@ -3558,10 +4440,19 @@
                 "accountsReceivable": 3400
             }
         },
-        "nameForManagementSite": "ライブV34",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV34"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "667",
@@ -3594,10 +4485,19 @@
                 "accountsReceivable": 3300
             }
         },
-        "nameForManagementSite": "ライブV33",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV33"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "668",
@@ -3630,10 +4530,19 @@
                 "accountsReceivable": 3200
             }
         },
-        "nameForManagementSite": "ライブV32",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV32"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "669",
@@ -3666,10 +4575,19 @@
                 "accountsReceivable": 3100
             }
         },
-        "nameForManagementSite": "ライブV31",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV31"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "670",
@@ -3702,10 +4620,19 @@
                 "accountsReceivable": 3000
             }
         },
-        "nameForManagementSite": "ライブV30",
-        "nameForPrinting": "ライヴビューイング",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ライブV30"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ライヴビューイング"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "750",
@@ -3738,10 +4665,19 @@
                 "accountsReceivable": 4000
             }
         },
-        "nameForManagementSite": "舞台挨拶40",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶40"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "751",
@@ -3774,10 +4710,19 @@
                 "accountsReceivable": 3900
             }
         },
-        "nameForManagementSite": "舞台挨拶39",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶39"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "752",
@@ -3810,10 +4755,19 @@
                 "accountsReceivable": 3800
             }
         },
-        "nameForManagementSite": "舞台挨拶38",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶38"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "753",
@@ -3846,10 +4800,19 @@
                 "accountsReceivable": 3700
             }
         },
-        "nameForManagementSite": "舞台挨拶37",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶37"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "754",
@@ -3882,10 +4845,19 @@
                 "accountsReceivable": 3600
             }
         },
-        "nameForManagementSite": "舞台挨拶36",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶36"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "755",
@@ -3918,10 +4890,19 @@
                 "accountsReceivable": 3500
             }
         },
-        "nameForManagementSite": "舞台挨拶35",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶35"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "756",
@@ -3954,10 +4935,19 @@
                 "accountsReceivable": 3400
             }
         },
-        "nameForManagementSite": "舞台挨拶34",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶34"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "757",
@@ -3990,10 +4980,19 @@
                 "accountsReceivable": 3300
             }
         },
-        "nameForManagementSite": "舞台挨拶33",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶33"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "758",
@@ -4026,10 +5025,19 @@
                 "accountsReceivable": 3200
             }
         },
-        "nameForManagementSite": "舞台挨拶32",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶32"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "759",
@@ -4062,10 +5070,19 @@
                 "accountsReceivable": 3100
             }
         },
-        "nameForManagementSite": "舞台挨拶31",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶31"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "760",
@@ -4098,10 +5115,19 @@
                 "accountsReceivable": 3000
             }
         },
-        "nameForManagementSite": "舞台挨拶30",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶30"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "761",
@@ -4134,10 +5160,19 @@
                 "accountsReceivable": 2900
             }
         },
-        "nameForManagementSite": "舞台挨拶29",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶29"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "762",
@@ -4170,10 +5205,19 @@
                 "accountsReceivable": 2800
             }
         },
-        "nameForManagementSite": "舞台挨拶28",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶28"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "763",
@@ -4206,10 +5250,19 @@
                 "accountsReceivable": 2700
             }
         },
-        "nameForManagementSite": "舞台挨拶27",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶27"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "764",
@@ -4242,10 +5295,19 @@
                 "accountsReceivable": 2600
             }
         },
-        "nameForManagementSite": "舞台挨拶26",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶26"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "765",
@@ -4278,10 +5340,19 @@
                 "accountsReceivable": 2500
             }
         },
-        "nameForManagementSite": "舞台挨拶25",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶25"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "766",
@@ -4314,10 +5385,19 @@
                 "accountsReceivable": 2400
             }
         },
-        "nameForManagementSite": "舞台挨拶24",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶24"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "767",
@@ -4350,10 +5430,19 @@
                 "accountsReceivable": 2300
             }
         },
-        "nameForManagementSite": "舞台挨拶23",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶23"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "768",
@@ -4386,10 +5475,19 @@
                 "accountsReceivable": 2200
             }
         },
-        "nameForManagementSite": "舞台挨拶22",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶22"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "769",
@@ -4422,10 +5520,19 @@
                 "accountsReceivable": 2100
             }
         },
-        "nameForManagementSite": "舞台挨拶21",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶21"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "770",
@@ -4458,10 +5565,19 @@
                 "accountsReceivable": 2000
             }
         },
-        "nameForManagementSite": "舞台挨拶20",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶20"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "771",
@@ -4494,10 +5610,19 @@
                 "accountsReceivable": 1900
             }
         },
-        "nameForManagementSite": "舞台挨拶19",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶19"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "772",
@@ -4530,10 +5655,19 @@
                 "accountsReceivable": 1800
             }
         },
-        "nameForManagementSite": "舞台挨拶18",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶18"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "773",
@@ -4566,10 +5700,19 @@
                 "accountsReceivable": 1700
             }
         },
-        "nameForManagementSite": "舞台挨拶17",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶17"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "774",
@@ -4602,10 +5745,19 @@
                 "accountsReceivable": 1600
             }
         },
-        "nameForManagementSite": "舞台挨拶16",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶16"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "775",
@@ -4638,10 +5790,19 @@
                 "accountsReceivable": 1500
             }
         },
-        "nameForManagementSite": "舞台挨拶15",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶15"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "776",
@@ -4674,10 +5835,19 @@
                 "accountsReceivable": 1400
             }
         },
-        "nameForManagementSite": "舞台挨拶14",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶14"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "777",
@@ -4710,10 +5880,19 @@
                 "accountsReceivable": 1300
             }
         },
-        "nameForManagementSite": "舞台挨拶13",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶13"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "778",
@@ -4746,10 +5925,19 @@
                 "accountsReceivable": 1200
             }
         },
-        "nameForManagementSite": "舞台挨拶12",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶12"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "779",
@@ -4782,10 +5970,19 @@
                 "accountsReceivable": 1100
             }
         },
-        "nameForManagementSite": "舞台挨拶11",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶11"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "780",
@@ -4818,10 +6015,19 @@
                 "accountsReceivable": 1000
             }
         },
-        "nameForManagementSite": "舞台挨拶10",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶10"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "781",
@@ -4854,10 +6060,19 @@
                 "accountsReceivable": 900
             }
         },
-        "nameForManagementSite": "舞台挨拶9",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶9"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "782",
@@ -4890,10 +6105,19 @@
                 "accountsReceivable": 800
             }
         },
-        "nameForManagementSite": "舞台挨拶8",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶8"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "783",
@@ -4926,10 +6150,19 @@
                 "accountsReceivable": 700
             }
         },
-        "nameForManagementSite": "舞台挨拶7",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶7"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "784",
@@ -4962,10 +6195,19 @@
                 "accountsReceivable": 600
             }
         },
-        "nameForManagementSite": "舞台挨拶6",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶6"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "785",
@@ -4998,10 +6240,19 @@
                 "accountsReceivable": 500
             }
         },
-        "nameForManagementSite": "舞台挨拶5",
-        "nameForPrinting": "舞台挨拶",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "舞台挨拶5"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "舞台挨拶"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "810",
@@ -5034,10 +6285,19 @@
                 "accountsReceivable": 3000
             }
         },
-        "nameForManagementSite": "全国券30",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券30"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "811",
@@ -5070,10 +6330,19 @@
                 "accountsReceivable": 2900
             }
         },
-        "nameForManagementSite": "全国券29",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券29"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "812",
@@ -5106,10 +6375,19 @@
                 "accountsReceivable": 2800
             }
         },
-        "nameForManagementSite": "全国券28",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券28"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "813",
@@ -5142,10 +6420,19 @@
                 "accountsReceivable": 2700
             }
         },
-        "nameForManagementSite": "全国券27",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券27"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "814",
@@ -5178,10 +6465,19 @@
                 "accountsReceivable": 2600
             }
         },
-        "nameForManagementSite": "全国券26",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券26"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "815",
@@ -5214,10 +6510,19 @@
                 "accountsReceivable": 2500
             }
         },
-        "nameForManagementSite": "全国券25",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券25"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "816",
@@ -5250,10 +6555,19 @@
                 "accountsReceivable": 2400
             }
         },
-        "nameForManagementSite": "全国券24",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券24"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "817",
@@ -5286,10 +6600,19 @@
                 "accountsReceivable": 2300
             }
         },
-        "nameForManagementSite": "全国券23",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券23"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "818",
@@ -5322,10 +6645,19 @@
                 "accountsReceivable": 2200
             }
         },
-        "nameForManagementSite": "全国券22",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券22"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "819",
@@ -5358,10 +6690,19 @@
                 "accountsReceivable": 2100
             }
         },
-        "nameForManagementSite": "全国券21",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券21"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "820",
@@ -5394,10 +6735,19 @@
                 "accountsReceivable": 2000
             }
         },
-        "nameForManagementSite": "全国券20",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券20"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "821",
@@ -5430,10 +6780,19 @@
                 "accountsReceivable": 1900
             }
         },
-        "nameForManagementSite": "全国券19",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券19"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "822",
@@ -5466,10 +6825,19 @@
                 "accountsReceivable": 1800
             }
         },
-        "nameForManagementSite": "全国券18",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券18"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "823",
@@ -5502,10 +6870,19 @@
                 "accountsReceivable": 1700
             }
         },
-        "nameForManagementSite": "全国券17",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券17"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "825",
@@ -5538,10 +6915,19 @@
                 "accountsReceivable": 1600
             }
         },
-        "nameForManagementSite": "全国券16",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券16"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "830",
@@ -5574,10 +6960,19 @@
                 "accountsReceivable": 1500
             }
         },
-        "nameForManagementSite": "全国券15",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券15"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "835",
@@ -5610,10 +7005,19 @@
                 "accountsReceivable": 1400
             }
         },
-        "nameForManagementSite": "全国券14",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券14"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "840",
@@ -5646,10 +7050,19 @@
                 "accountsReceivable": 1400
             }
         },
-        "nameForManagementSite": "全国券14",
-        "nameForPrinting": "前売ペア一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券14"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売ペア一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "845",
@@ -5682,10 +7095,19 @@
                 "accountsReceivable": 1300
             }
         },
-        "nameForManagementSite": "全国券13",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券13"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "850",
@@ -5718,10 +7140,19 @@
                 "accountsReceivable": 1200
             }
         },
-        "nameForManagementSite": "全国券12",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券12"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "855",
@@ -5754,10 +7185,19 @@
                 "accountsReceivable": 1100
             }
         },
-        "nameForManagementSite": "全国券11",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券11"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "860",
@@ -5790,10 +7230,19 @@
                 "accountsReceivable": 1000
             }
         },
-        "nameForManagementSite": "全国券10",
-        "nameForPrinting": "前売一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券10"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "865",
@@ -5826,10 +7275,19 @@
                 "accountsReceivable": 900
             }
         },
-        "nameForManagementSite": "全国券09",
-        "nameForPrinting": "前売小人",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券09"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売小人"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "870",
@@ -5862,10 +7320,19 @@
                 "accountsReceivable": 800
             }
         },
-        "nameForManagementSite": "全国券08",
-        "nameForPrinting": "前売ペア小人",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券08"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売ペア小人"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "875",
@@ -5898,10 +7365,19 @@
                 "accountsReceivable": 700
             }
         },
-        "nameForManagementSite": "全国券07",
-        "nameForPrinting": "前売小人",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券07"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売小人"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "880",
@@ -5934,10 +7410,19 @@
                 "accountsReceivable": 600
             }
         },
-        "nameForManagementSite": "全国券06",
-        "nameForPrinting": "前売小人",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券06"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売小人"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "885",
@@ -5970,10 +7455,19 @@
                 "accountsReceivable": 500
             }
         },
-        "nameForManagementSite": "全国券05",
-        "nameForPrinting": "前売小人",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "全国券05"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "前売小人"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "910",
@@ -6006,10 +7500,19 @@
                 "accountsReceivable": 3000
             }
         },
-        "nameForManagementSite": "ムビチケ30",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ30"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "911",
@@ -6042,10 +7545,19 @@
                 "accountsReceivable": 2900
             }
         },
-        "nameForManagementSite": "ムビチケ29",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ29"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "912",
@@ -6078,10 +7590,19 @@
                 "accountsReceivable": 2800
             }
         },
-        "nameForManagementSite": "ムビチケ28",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ28"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "913",
@@ -6114,10 +7635,19 @@
                 "accountsReceivable": 2700
             }
         },
-        "nameForManagementSite": "ムビチケ27",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ27"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "914",
@@ -6150,10 +7680,19 @@
                 "accountsReceivable": 2600
             }
         },
-        "nameForManagementSite": "ムビチケ26",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ26"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "915",
@@ -6186,10 +7725,19 @@
                 "accountsReceivable": 2500
             }
         },
-        "nameForManagementSite": "ムビチケ25",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ25"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "916",
@@ -6222,10 +7770,19 @@
                 "accountsReceivable": 2400
             }
         },
-        "nameForManagementSite": "ムビチケ24",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ24"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "917",
@@ -6258,10 +7815,19 @@
                 "accountsReceivable": 2300
             }
         },
-        "nameForManagementSite": "ムビチケ23",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ23"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "918",
@@ -6294,10 +7860,19 @@
                 "accountsReceivable": 2200
             }
         },
-        "nameForManagementSite": "ムビチケ22",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ22"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "919",
@@ -6330,10 +7905,19 @@
                 "accountsReceivable": 2100
             }
         },
-        "nameForManagementSite": "ムビチケ21",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ21"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "920",
@@ -6366,10 +7950,19 @@
                 "accountsReceivable": 2000
             }
         },
-        "nameForManagementSite": "ムビチケ20",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ20"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "921",
@@ -6402,10 +7995,19 @@
                 "accountsReceivable": 1900
             }
         },
-        "nameForManagementSite": "ムビチケ19",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ19"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "922",
@@ -6438,10 +8040,19 @@
                 "accountsReceivable": 1800
             }
         },
-        "nameForManagementSite": "ムビチケ18",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ18"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "923",
@@ -6474,10 +8085,19 @@
                 "accountsReceivable": 1700
             }
         },
-        "nameForManagementSite": "ムビチケ17",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ17"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "924",
@@ -6510,10 +8130,19 @@
                 "accountsReceivable": 1600
             }
         },
-        "nameForManagementSite": "ムビチケ16",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ16"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "925",
@@ -6546,10 +8175,19 @@
                 "accountsReceivable": 1500
             }
         },
-        "nameForManagementSite": "ムビチケ15",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ15"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "930",
@@ -6582,10 +8220,19 @@
                 "accountsReceivable": 1400
             }
         },
-        "nameForManagementSite": "ムビチケ14",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ14"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "935",
@@ -6618,10 +8265,19 @@
                 "accountsReceivable": 1300
             }
         },
-        "nameForManagementSite": "ムビチケ13",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ13"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "940",
@@ -6654,10 +8310,19 @@
                 "accountsReceivable": 1200
             }
         },
-        "nameForManagementSite": "ムビチケ12",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ12"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "945",
@@ -6690,10 +8355,19 @@
                 "accountsReceivable": 1200
             }
         },
-        "nameForManagementSite": "ムビチケ12",
-        "nameForPrinting": "ムビチケペア一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ12"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケペア一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "950",
@@ -6726,10 +8400,19 @@
                 "accountsReceivable": 1100
             }
         },
-        "nameForManagementSite": "ムビチケ11",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ11"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "955",
@@ -6762,10 +8445,19 @@
                 "accountsReceivable": 1000
             }
         },
-        "nameForManagementSite": "ムビチケ10",
-        "nameForPrinting": "ムビチケ一般",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ10"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ一般"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "960",
@@ -6798,10 +8490,19 @@
                 "accountsReceivable": 900
             }
         },
-        "nameForManagementSite": "ムビチケ09",
-        "nameForPrinting": "ムビチケ小人",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ09"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ小人"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "965",
@@ -6834,10 +8535,19 @@
                 "accountsReceivable": 800
             }
         },
-        "nameForManagementSite": "ムビチケ08",
-        "nameForPrinting": "ムビチケ小人",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ08"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ小人"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "970",
@@ -6870,10 +8580,19 @@
                 "accountsReceivable": 700
             }
         },
-        "nameForManagementSite": "ムビチケ07",
-        "nameForPrinting": "ムビチケ小人",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ07"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ小人"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "975",
@@ -6906,10 +8625,19 @@
                 "accountsReceivable": 700
             }
         },
-        "nameForManagementSite": "ムビチケ07",
-        "nameForPrinting": "ムビチケペア小人",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ07"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケペア小人"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "980",
@@ -6942,10 +8670,19 @@
                 "accountsReceivable": 600
             }
         },
-        "nameForManagementSite": "ムビチケ06",
-        "nameForPrinting": "ムビチケ小人",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ06"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ小人"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     },
     {
         "id": "985",
@@ -6978,9 +8715,18 @@
                 "accountsReceivable": 500
             }
         },
-        "nameForManagementSite": "ムビチケ05",
-        "nameForPrinting": "ムビチケ小人",
-        "typeOfNote": 2,
-        "indicatorColor": "rgb(51, 51, 51)"
+        "alternateName": {
+            "ja": "ムビチケ05"
+        },
+        "additionalProperty": [
+            {
+                "name": "nameForPrinting",
+                "value": "ムビチケ小人"
+            }
+        ],
+        "category": {
+            "id": "2"
+        },
+        "color": "rgb(51, 51, 51)"
     }
 ]

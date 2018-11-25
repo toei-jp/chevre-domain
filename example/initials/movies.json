@@ -4,7 +4,10 @@
         "typeOf": "Movie",
         "contentRating": "G",
         "datePublished": "2018-10-31T15:00:00.000Z",
-        "distribution": "0001",
+        "distributor": {
+            "id": "0001",
+            "name": ""
+        },
         "duration": "PT2H3M",
         "name": "ペット",
         "offers": {
@@ -12,14 +15,17 @@
             "priceCurrency": "JPY",
             "availabilityEnds": "2028-12-31T15:00:00.000Z"
         },
-        "subtitle": "サブタイトル"
+        "headline": "ペットサブタイトル"
     },
     {
         "identifier": "1212510",
         "typeOf": "Movie",
         "contentRating": "G",
         "datePublished": "2018-10-31T15:00:00.000Z",
-        "distribution": "0001",
+        "distributor": {
+            "id": "0001",
+            "name": ""
+        },
         "duration": "PT1H30M",
         "name": "ドラゴンボール超 ブロリー",
         "offers": {
@@ -27,14 +33,17 @@
             "priceCurrency": "JPY",
             "availabilityEnds": "2028-12-31T15:00:00.000Z"
         },
-        "subtitle": "「超」劇場版、始まる――。"
+        "headline": "「超」劇場版、始まる――。"
     },
     {
         "identifier": "1212964",
         "typeOf": "Movie",
         "contentRating": "G",
         "datePublished": "2018-10-31T15:00:00.000Z",
-        "distribution": "0001",
+        "distributor": {
+            "id": "0001",
+            "name": ""
+        },
         "duration": "PT1H20M",
         "name": "映画ＨＵＧっと！プリキュア♡ふたりはプリキュアオールスターズメモリーズ",
         "offers": {
@@ -42,14 +51,17 @@
             "priceCurrency": "JPY",
             "availabilityEnds": "2028-12-31T15:00:00.000Z"
         },
-        "subtitle": "１５周年記念映画は、≪最新≫と≪初代≫の最強タッグで映画化決定！！“ぶっちゃけありえない！？”　夢のコラボが遂に実現！"
+        "headline": "１５周年記念映画は、≪最新≫と≪初代≫の最強タッグで映画化決定！！“ぶっちゃけありえない！？”　夢のコラボが遂に実現！"
     },
     {
         "identifier": "9000001",
         "typeOf": "Movie",
         "contentRating": "G",
         "datePublished": "2018-10-31T15:00:00.000Z",
-        "distribution": "0002",
+        "distributor": {
+            "id": "0002",
+            "name": ""
+        },
         "duration": "PT2H5M",
         "name": "コーヒーが冷めないうちに",
         "offers": {
@@ -57,14 +69,17 @@
             "priceCurrency": "JPY",
             "availabilityEnds": "2028-12-31T15:00:00.000Z"
         },
-        "subtitle": ""
+        "headline": "コーヒーが冷めないうちにサブタイトル"
     },
     {
         "identifier": "03000000571",
         "typeOf": "Movie",
         "contentRating": "R15+",
         "datePublished": "2018-10-31T15:00:00.000Z",
-        "distribution": "0001",
+        "distributor": {
+            "id": "0001",
+            "name": ""
+        },
         "duration": "PT1H22M",
         "name": "怪猫トルコ風呂",
         "offers": {
@@ -72,6 +87,6 @@
             "priceCurrency": "JPY",
             "availabilityEnds": "2028-12-31T15:00:00.000Z"
         },
-        "subtitle": ""
+        "headline": "怪猫トルコ風呂サブタイトル"
     }
 ]
