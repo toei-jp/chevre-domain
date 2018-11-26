@@ -84,7 +84,7 @@ export class MongoRepository {
         if (Array.isArray(params.ticketTypes)) {
             andConditions.push({
                 ticketTypes: {
-                    $in: [params.ticketTypes]
+                    $in: params.ticketTypes
                 }
             });
         }
