@@ -4,15 +4,12 @@
   },
   "contributors": [
     {
-      "name": "Hiroki Matsuoka",
-      "email": "h.matsuoka@motionpicture.jp"
-    },
-    {
       "name": "Tetsu Yamazaki",
       "email": "yamazaki@motionpicture.jp"
     }
   ],
   "dependencies": {
+    "@chevre/domain": "^1.0.0-alpha.46",
     "@movieticket/reserve-api-abstract-client": "^1.0.0",
     "@toei-jp/chevre-factory": "^1.0.0-alpha.45",
     "@types/mongoose": "^5.3.1",
@@ -20,8 +17,6 @@
     "debug": "^3.2.6",
     "moment": "^2.22.2",
     "moment-timezone": "^0.5.21",
-    "mongoose": "^5.3.13",
-    "redis": "^2.8.0",
     "uniqid": "^5.0.3"
   },
   "description": "Chevre Domain Library for Node.js",

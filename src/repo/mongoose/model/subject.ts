@@ -1,4 +1,4 @@
-import * as mongoose from 'mongoose';
+import { mongoose } from '@chevre/domain';
 
 const safe = { j: true, w: 'majority', wtimeout: 10000 };
 

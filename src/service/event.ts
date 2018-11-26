@@ -1,9 +1,9 @@
-import { MongoRepository as ReservationRepo } from '../repo/reservation';
+import * as chevre from '@chevre/domain';
 
 import * as factory from '../factory';
 
 type ISearchScreeningEventReservationTicketOperation<T> = (repos: {
-    reservation: ReservationRepo;
+    reservation: chevre.repository.Reservation;
 }) => Promise<T>;
 
 /**
@@ -14,7 +14,7 @@ export function countTicketTypePerEvent(
 ): ISearchScreeningEventReservationTicketOperation<factory.agregation.ICountTicketTypePerEventResult> {
     // tslint:disable-next-line:max-func-body-length
     return async (repos: {
-        reservation: ReservationRepo;
+        reservation: chevre.repository.Reservation;
     }) => {
         const reservations = await repos.reservation.searchScreeningEventReservations({
             reservationFor: {

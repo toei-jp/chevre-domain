@@ -1,18 +1,13 @@
 /**
  * service module
  */
-import * as AggregationService from './service/aggregation';
-import * as EventService from './service/event';
-import * as OfferService from './service/offer';
-import * as TaskService from './service/task';
-import * as CancelReservationTransactionService from './service/transaction/cancelReservation';
-import * as ReserveTransactionService from './service/transaction/reserve';
+import * as chevre from '@chevre/domain';
 
-export import aggregation = AggregationService;
+export import aggregation = chevre.service.aggregation;
+export import offer = chevre.service.offer;
+export import task = chevre.service.task;
+export import transaction = chevre.service.transaction;
+
+import * as EventService from './service/event';
+
 export import event = EventService;
-export import offer = OfferService;
-export import task = TaskService;
-export namespace transaction {
-    export import cancelReservation = CancelReservationTransactionService;
-    export import reserve = ReserveTransactionService;
-}

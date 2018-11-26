@@ -1,4 +1,5 @@
-import { Connection } from 'mongoose';
+import { mongoose } from '@chevre/domain';
+
 import boxOfficeTypeModel from './mongoose/model/boxOfficeType';
 
 import * as factory from '../factory';
@@ -9,7 +10,7 @@ import * as factory from '../factory';
 export class MongoRepository {
     public readonly boxOfficeTypeModel: typeof boxOfficeTypeModel;
 
-    constructor(connection: Connection) {
+    constructor(connection: mongoose.Connection) {
         this.boxOfficeTypeModel = connection.model(boxOfficeTypeModel.modelName);
     }
 

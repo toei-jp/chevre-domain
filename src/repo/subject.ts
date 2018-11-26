@@ -1,4 +1,5 @@
-import * as mongoose from 'mongoose';
+import { mongoose } from '@chevre/domain';
+
 import subjectModel from './mongoose/model/subject';
 
 import * as factory from '../factory';

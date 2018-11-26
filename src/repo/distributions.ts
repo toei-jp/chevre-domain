@@ -1,4 +1,5 @@
-import { Connection } from 'mongoose';
+import { mongoose } from '@chevre/domain';
+
 import distributionsModel from './mongoose/model/distributions';
 
 import * as factory from '../factory';
@@ -9,7 +10,7 @@ import * as factory from '../factory';
 export class MongoRepository {
     public readonly distributionsModel: typeof distributionsModel;
 
-    constructor(connection: Connection) {
+    constructor(connection: mongoose.Connection) {
         this.distributionsModel = connection.model(distributionsModel.modelName);
     }
     public static CREATE_MONGO_CONDITIONS(params: factory.distributions.distribute.ISearchConditions) {
