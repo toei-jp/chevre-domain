@@ -81,6 +81,13 @@ export class MongoRepository {
                 ]
             });
         }
+        if (Array.isArray(params.ticketTypes)) {
+            andConditions.push({
+                ticketTypes: {
+                    $in: [params.ticketTypes]
+                }
+            });
+        }
 
         return andConditions;
     }
@@ -310,30 +317,5 @@ export class MongoRepository {
                 _id: params.id
             }
         ).exec();
-    }
-
-    /**
-     * 関連券種グループリスト
-     */
-    public async findTicketTypeGroupByTicketTypeId(params: {
-        ticketTypeId: string;
-    }): Promise<factory.ticketType.ITicketType[]> {
-        const query = this.ticketTypeGroupModel.find(
-            {
-                ticketTypes: {
-                    $in: [params.ticketTypeId]
-                }
-            },
-            {
-                __v: 0,
-                createdAt: 0,
-                updatedAt: 0
-            }
-        );
-
-        return query.sort({ _id: 1 })
-            .setOptions({ maxTimeMS: 10000 })
-            .exec()
-            .then((docs) => docs.map((doc) => doc.toObject()));
     }
 }
