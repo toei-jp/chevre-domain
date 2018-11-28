@@ -1914,13 +1914,12 @@
             "typeOf": "Offer",
             "eligibleQuantity": {
                 "typeOf": "QuantitativeValue",
-                "value": 1,
-                "maxValue": 10,
+                "maxValue": 6,
                 "unitCode": "C62"
             },
             "availabilityStartsGraceTime": {
                 "typeOf": "QuantitativeValue",
-                "value": -1,
+                "value": -2,
                 "unitCode": "DAY"
             },
             "availabilityEndsGraceTime": {
