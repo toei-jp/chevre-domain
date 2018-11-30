@@ -12,8 +12,7 @@
         "name": "怪猫トルコ風呂",
         "offers": {
             "typeOf": "Offer",
-            "priceCurrency": "JPY",
-            "availabilityEnds": "2028-12-31T15:00:00.000Z"
+            "priceCurrency": "JPY"
         },
         "headline": ""
     },
@@ -30,8 +29,7 @@
         "name": "ペット",
         "offers": {
             "typeOf": "Offer",
-            "priceCurrency": "JPY",
-            "availabilityEnds": "2028-12-31T15:00:00.000Z"
+            "priceCurrency": "JPY"
         },
         "headline": "サブタイトル"
     },
@@ -82,8 +80,7 @@
         "name": "souvenir the movie ～MARIYA TAKEUCHI Theater Live～ ",
         "offers": {
             "typeOf": "Offer",
-            "priceCurrency": "JPY",
-            "availabilityEnds": "2018-12-31T15:00:00.000Z"
+            "priceCurrency": "JPY"
         },
         "headline": ""
     },
@@ -151,8 +148,7 @@
         "name": "メタルマクベス ｄｉｓｃ３ ライブビューイング",
         "offers": {
             "typeOf": "Offer",
-            "priceCurrency": "JPY",
-            "availabilityEnds": "2018-12-06T15:00:00.000Z"
+            "priceCurrency": "JPY"
         },
         "headline": ""
     },
@@ -169,8 +165,7 @@
         "name": "テスト作品",
         "offers": {
             "typeOf": "Offer",
-            "priceCurrency": "JPY",
-            "availabilityEnds": "2018-12-08T15:00:00.000Z"
+            "priceCurrency": "JPY"
         },
         "headline": "テスト作品サブ"
     },
@@ -187,8 +182,7 @@
         "name": "モーニング娘。'18 コンサートツアー秋～GET SET, GO！～ファイナル 飯窪春菜卒業スペシャル ライブビューイング",
         "offers": {
             "typeOf": "Offer",
-            "priceCurrency": "JPY",
-            "availabilityEnds": "2018-12-16T15:00:00.000Z"
+            "priceCurrency": "JPY"
         },
         "headline": ""
     },

@@ -46,14 +46,14 @@ async function main() {
     await Promise.all(priceSpecifications.map(async (priceSpecification) => {
         await priceSpecificationRepo.priceSpecificationModel.create(priceSpecification);
     }));
-    await Promise.all(boxOfficeTypes.map(async (boxOfficeType) => {
-        await boxOfficeTypeRepo.createBoxOfficeType(boxOfficeType);
-    }));
     await Promise.all(subjects.map(async (subject) => {
         await subjectRepo.save({ attributes: subject });
     }));
     await Promise.all(ticketTypes.map(async (ticketType) => {
         await ticketTypeRepo.createTicketType(ticketType);
+    }));
+    await Promise.all(boxOfficeTypes.map(async (boxOfficeType) => {
+        await boxOfficeTypeRepo.createBoxOfficeType(boxOfficeType);
     }));
     await Promise.all(ticketTypeGroups.map(async (ticketTypeGroup) => {
         await ticketTypeRepo.createTicketTypeGroup(ticketTypeGroup);
