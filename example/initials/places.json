@@ -1924,7 +1924,7 @@
             },
             "availabilityEndsGraceTime": {
                 "typeOf": "QuantitativeValue",
-                "value": 1200,
+                "value": -1200,
                 "unitCode": "SEC"
             }
         }
