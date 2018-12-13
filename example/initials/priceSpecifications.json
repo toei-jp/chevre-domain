@@ -142,24 +142,8 @@
             {
                 "typeOf": "MovieTicketTypeChargeSpecification",
                 "appliesToVideoFormat": "2D",
-                "appliesToMovieTicketType": "18",
-                "price": 300,
-                "priceCurrency": "JPY",
-                "valueAddedTaxIncluded": true
-            },
-            {
-                "typeOf": "MovieTicketTypeChargeSpecification",
-                "appliesToVideoFormat": "2D",
                 "appliesToMovieTicketType": "19",
                 "price": 0,
-                "priceCurrency": "JPY",
-                "valueAddedTaxIncluded": true
-            },
-            {
-                "typeOf": "MovieTicketTypeChargeSpecification",
-                "appliesToVideoFormat": "2D",
-                "appliesToMovieTicketType": "20",
-                "price": 300,
                 "priceCurrency": "JPY",
                 "valueAddedTaxIncluded": true
             },
@@ -174,7 +158,103 @@
             {
                 "typeOf": "MovieTicketTypeChargeSpecification",
                 "appliesToVideoFormat": "2D",
+                "appliesToMovieTicketType": "22",
+                "price": 0,
+                "priceCurrency": "JPY",
+                "valueAddedTaxIncluded": true
+            },
+            {
+                "typeOf": "MovieTicketTypeChargeSpecification",
+                "appliesToVideoFormat": "2D",
+                "appliesToMovieTicketType": "23",
+                "price": 0,
+                "priceCurrency": "JPY",
+                "valueAddedTaxIncluded": true
+            },
+            {
+                "typeOf": "MovieTicketTypeChargeSpecification",
+                "appliesToVideoFormat": "2D",
+                "appliesToMovieTicketType": "24",
+                "price": 0,
+                "priceCurrency": "JPY",
+                "valueAddedTaxIncluded": true
+            },
+            {
+                "typeOf": "MovieTicketTypeChargeSpecification",
+                "appliesToVideoFormat": "2D",
+                "appliesToMovieTicketType": "25",
+                "price": 0,
+                "priceCurrency": "JPY",
+                "valueAddedTaxIncluded": true
+            },
+            {
+                "typeOf": "MovieTicketTypeChargeSpecification",
+                "appliesToVideoFormat": "2D",
+                "appliesToMovieTicketType": "26",
+                "price": 0,
+                "priceCurrency": "JPY",
+                "valueAddedTaxIncluded": true
+            },
+            {
+                "typeOf": "MovieTicketTypeChargeSpecification",
+                "appliesToVideoFormat": "2D",
+                "appliesToMovieTicketType": "27",
+                "price": 0,
+                "priceCurrency": "JPY",
+                "valueAddedTaxIncluded": true
+            },
+            {
+                "typeOf": "MovieTicketTypeChargeSpecification",
+                "appliesToVideoFormat": "2D",
+                "appliesToMovieTicketType": "28",
+                "price": 0,
+                "priceCurrency": "JPY",
+                "valueAddedTaxIncluded": true
+            },
+            {
+                "typeOf": "MovieTicketTypeChargeSpecification",
+                "appliesToVideoFormat": "2D",
+                "appliesToMovieTicketType": "29",
+                "price": 0,
+                "priceCurrency": "JPY",
+                "valueAddedTaxIncluded": true
+            },
+            {
+                "typeOf": "MovieTicketTypeChargeSpecification",
+                "appliesToVideoFormat": "2D",
                 "appliesToMovieTicketType": "BG",
+                "price": 0,
+                "priceCurrency": "JPY",
+                "valueAddedTaxIncluded": true
+            },
+            {
+                "typeOf": "MovieTicketTypeChargeSpecification",
+                "appliesToVideoFormat": "2D",
+                "appliesToMovieTicketType": "BH",
+                "price": 0,
+                "priceCurrency": "JPY",
+                "valueAddedTaxIncluded": true
+            },
+            {
+                "typeOf": "MovieTicketTypeChargeSpecification",
+                "appliesToVideoFormat": "2D",
+                "appliesToMovieTicketType": "G1",
+                "price": 0,
+                "priceCurrency": "JPY",
+                "valueAddedTaxIncluded": true
+            },
+            {
+                "typeOf": "MovieTicketTypeChargeSpecification",
+                "appliesToVideoFormat": "2D",
+                "appliesToMovieTicketType": "G2",
+                "price": 0,
+                "priceCurrency": "JPY",
+                "valueAddedTaxIncluded": true
+            },
+            {
+                "typeOf": "MovieTicketTypeChargeSpecification",
+                "appliesToVideoFormat": "2D",
+                "appliesToMovieTicketType": "50",
                 "price": 0,
                 "priceCurrency": "JPY",
                 "valueAddedTaxIncluded": true
