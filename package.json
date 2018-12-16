@@ -9,7 +9,7 @@
     }
   ],
   "dependencies": {
-    "@chevre/domain": "^1.0.0-alpha.50",
+    "@chevre/domain": "^1.0.0-alpha.51",
     "@movieticket/reserve-api-abstract-client": "^1.0.0",
     "@toei-jp/chevre-factory": "^1.0.0-alpha.46",
     "@types/mongoose": "^5.3.5",
