@@ -33,14 +33,14 @@
 			<li class="dropdown">
 				<a href="classes.list.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
 				<ul class="dropdown-menu ">
-					<li><a href="MongoRepository.html">MongoRepository</a></li><li><a href="RedisRepository.html">RedisRepository</a></li><li><a href="Repository.html">Repository</a></li>
+					<li><a href="MongoRepository.html">MongoRepository</a></li>
 				</ul>
 			</li>
 			
 			<li class="dropdown">
 				<a href="global.html" class="dropdown-toggle" data-toggle="dropdown">Global<b class="caret"></b></a>
 				<ul class="dropdown-menu ">
-					<li><a href="global.html#abort">abort</a></li><li><a href="global.html#action_1">action_1</a></li><li><a href="global.html#aggregateScreeningEvent">aggregateScreeningEvent</a></li><li><a href="global.html#AggregationService">AggregationService</a></li><li><a href="global.html#call">call</a></li><li><a href="global.html#cancel">cancel</a></li><li><a href="global.html#cancelPendingReservation">cancelPendingReservation</a></li><li><a href="global.html#cancelReservation">cancelReservation</a></li><li><a href="global.html#confirm">confirm</a></li><li><a href="global.html#confirmReservation">confirmReservation</a></li><li><a href="global.html#countTicketTypePerEvent">countTicketTypePerEvent</a></li><li><a href="global.html#createDebug">createDebug</a></li><li><a href="global.html#default">default</a></li><li><a href="global.html#execute">execute</a></li><li><a href="global.html#executeByName">executeByName</a></li><li><a href="global.html#exportTasks">exportTasks</a></li><li><a href="global.html#exportTasksById">exportTasksById</a></li><li><a href="global.html#mongoose">mongoose</a></li><li><a href="global.html#redis">redis</a></li><li><a href="global.html#retry">retry</a></li><li><a href="global.html#schema">schema</a></li><li><a href="global.html#searchScreeningEventTicketOffers">searchScreeningEventTicketOffers</a></li><li><a href="global.html#sortOrder4executionOfTasks">sortOrder4executionOfTasks</a></li><li><a href="global.html#start">start</a></li>
+					<li><a href="global.html#chevre">chevre</a></li><li><a href="global.html#countTicketTypePerEvent">countTicketTypePerEvent</a></li><li><a href="global.html#schema">schema</a></li>
 				</ul>
 			</li>
 			
@@ -87,313 +87,12 @@ var __awaiter = (this &amp;&amp; this.__awaiter) || function (thisArg, _argument
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+const chevre = require("@chevre/domain");
 const uniqid = require("uniqid");
-const factory = require("../factory");
-const event_1 = require("./mongoose/model/event");
 /**
  * イベントリポジトリー
  */
-class MongoRepository {
-    constructor(connection) {
-        this.eventModel = connection.model(event_1.default.modelName);
-    }
-    // tslint:disable-next-line:max-func-body-length
-    static CREATE_SCREENING_EVENT_MONGO_CONDITIONS(params) {
-        const andConditions = [
-            {
-                typeOf: factory.eventType.ScreeningEvent
-            }
-        ];
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.name !== undefined) {
-            andConditions.push({
-                $or: [
-                    { 'name.ja': new RegExp(params.name, 'i') },
-                    { 'name.en': new RegExp(params.name, 'i') }
-                ]
-            });
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.superEvent !== undefined) {
-            // tslint:disable-next-line:no-single-line-block-comment
-            /* istanbul ignore else */
-            if (Array.isArray(params.superEvent.ids)) {
-                andConditions.push({
-                    'superEvent.id': {
-                        $exists: true,
-                        $in: params.superEvent.ids
-                    }
-                });
-            }
-            // tslint:disable-next-line:no-single-line-block-comment
-            /* istanbul ignore else */
-            if (Array.isArray(params.superEvent.locationBranchCodes)) {
-                andConditions.push({
-                    'superEvent.location.branchCode': {
-                        $exists: true,
-                        $in: params.superEvent.locationBranchCodes
-                    }
-                });
-            }
-            // tslint:disable-next-line:no-single-line-block-comment
-            /* istanbul ignore else */
-            if (Array.isArray(params.superEvent.workPerformedIdentifiers)) {
-                andConditions.push({
-                    'superEvent.workPerformed.identifier': {
-                        $exists: true,
-                        $in: params.superEvent.workPerformedIdentifiers
-                    }
-                });
-            }
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (Array.isArray(params.eventStatuses)) {
-            andConditions.push({
-                eventStatus: { $in: params.eventStatuses }
-            });
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.inSessionFrom !== undefined) {
-            andConditions.push({
-                endDate: { $gt: params.inSessionFrom }
-            });
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.inSessionThrough !== undefined) {
-            andConditions.push({
-                startDate: { $lt: params.inSessionThrough }
-            });
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.startFrom !== undefined) {
-            andConditions.push({
-                startDate: { $gte: params.startFrom }
-            });
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.startThrough !== undefined) {
-            andConditions.push({
-                startDate: { $lt: params.startThrough }
-            });
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.endFrom !== undefined) {
-            andConditions.push({
-                endDate: { $gte: params.endFrom }
-            });
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.endThrough !== undefined) {
-            andConditions.push({
-                endDate: { $lt: params.endThrough }
-            });
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.offers !== undefined) {
-            // tslint:disable-next-line:no-single-line-block-comment
-            /* istanbul ignore else */
-            if (params.offers.availableFrom instanceof Date) {
-                andConditions.push({
-                    'offers.availabilityEnds': {
-                        $exists: true,
-                        $gt: params.offers.availableFrom
-                    }
-                });
-            }
-            // tslint:disable-next-line:no-single-line-block-comment
-            /* istanbul ignore else */
-            if (params.offers.availableThrough instanceof Date) {
-                andConditions.push({
-                    'offers.availabilityStarts': {
-                        $exists: true,
-                        $lt: params.offers.availableThrough
-                    }
-                });
-            }
-            // tslint:disable-next-line:no-single-line-block-comment
-            /* istanbul ignore else */
-            if (params.offers.validFrom instanceof Date) {
-                andConditions.push({
-                    'offers.validThrough': {
-                        $exists: true,
-                        $gt: params.offers.validFrom
-                    }
-                });
-            }
-            // tslint:disable-next-line:no-single-line-block-comment
-            /* istanbul ignore else */
-            if (params.offers.validThrough instanceof Date) {
-                andConditions.push({
-                    'offers.validFrom': {
-                        $exists: true,
-                        $lt: params.offers.validThrough
-                    }
-                });
-            }
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (Array.isArray(params.ticketTypeGroups)) {
-            andConditions.push({
-                ticketTypeGroup: {
-                    $exists: true,
-                    $in: params.ticketTypeGroups
-                }
-            });
-        }
-        return andConditions;
-    }
-    static CREATE_SCREENING_EVENT_SERIES_MONGO_CONDITIONS(params) {
-        const andConditions = [
-            {
-                typeOf: factory.eventType.ScreeningEventSeries
-            }
-        ];
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.name !== undefined) {
-            andConditions.push({
-                $or: [
-                    { 'name.ja': new RegExp(params.name, 'i') },
-                    { 'name.en': new RegExp(params.name, 'i') },
-                    { kanaName: new RegExp(params.name, 'i') }
-                ]
-            });
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.location !== undefined) {
-            // tslint:disable-next-line:no-single-line-block-comment
-            /* istanbul ignore else */
-            if (Array.isArray(params.location.branchCodes)) {
-                andConditions.push({
-                    'location.branchCode': {
-                        $exists: true,
-                        $in: params.location.branchCodes
-                    }
-                });
-            }
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (Array.isArray(params.eventStatuses)) {
-            andConditions.push({
-                eventStatus: { $in: params.eventStatuses }
-            });
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.workPerformed !== undefined) {
-            // tslint:disable-next-line:no-single-line-block-comment
-            /* istanbul ignore else */
-            if (Array.isArray(params.workPerformed.identifiers)) {
-                andConditions.push({
-                    'workPerformed.identifier': { $in: params.workPerformed.identifiers }
-                });
-            }
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.inSessionFrom !== undefined) {
-            andConditions.push({
-                endDate: { $gt: params.inSessionFrom }
-            });
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.inSessionThrough !== undefined) {
-            andConditions.push({
-                startDate: { $lt: params.inSessionThrough }
-            });
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.startFrom !== undefined) {
-            andConditions.push({
-                startDate: { $gte: params.startFrom }
-            });
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.startThrough !== undefined) {
-            andConditions.push({
-                startDate: { $lt: params.startThrough }
-            });
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.endFrom !== undefined) {
-            andConditions.push({
-                endDate: { $gte: params.endFrom }
-            });
-        }
-        // tslint:disable-next-line:no-single-line-block-comment
-        /* istanbul ignore else */
-        if (params.endThrough !== undefined) {
-            andConditions.push({
-                endDate: { $lt: params.endThrough }
-            });
-        }
-        return andConditions;
-    }
-    /**
-     * 上映イベントを保管する
-     */
-    saveScreeningEventSeries(params) {
-        return __awaiter(this, void 0, void 0, function* () {
-            let event;
-            if (params.id === undefined) {
-                const id = uniqid();
-                const doc = yield this.eventModel.create(Object.assign({}, params.attributes, { _id: id }));
-                event = doc.toObject();
-            }
-            else {
-                const doc = yield this.eventModel.findOneAndUpdate({
-                    _id: params.id,
-                    typeOf: factory.eventType.ScreeningEventSeries
-                }, params.attributes, { upsert: false, new: true }).exec();
-                if (doc === null) {
-                    throw new factory.errors.NotFound('Event');
-                }
-                event = doc.toObject();
-            }
-            return event;
-        });
-    }
-    /**
-     * 上映イベントを保管する
-     */
-    saveScreeningEvent(params) {
-        return __awaiter(this, void 0, void 0, function* () {
-            let event;
-            if (params.id === undefined) {
-                const id = uniqid();
-                const doc = yield this.eventModel.create(Object.assign({}, params.attributes, { _id: id }));
-                event = doc.toObject();
-            }
-            else {
-                const doc = yield this.eventModel.findOneAndUpdate({
-                    _id: params.id,
-                    typeOf: factory.eventType.ScreeningEvent
-                }, params.attributes, { upsert: false, new: true }).exec();
-                if (doc === null) {
-                    throw new factory.errors.NotFound('Event');
-                }
-                event = doc.toObject();
-            }
-            return event;
-        });
-    }
+class MongoRepository extends chevre.repository.Event {
     /**
      * 複数の上映イベントを保管する
      */
@@ -402,87 +101,6 @@ class MongoRepository {
             const args = params.map((p) => (Object.assign({ _id: uniqid() }, p)));
             const docs = yield this.eventModel.create(args);
             return docs.map((doc) => doc.toObject());
-        });
-    }
-    countScreeningEvents(params) {
-        return __awaiter(this, void 0, void 0, function* () {
-            const conditions = MongoRepository.CREATE_SCREENING_EVENT_MONGO_CONDITIONS(params);
-            return this.eventModel.countDocuments({ $and: conditions }).setOptions({ maxTimeMS: 10000 })
-                .exec();
-        });
-    }
-    /**
-     * 上映イベントを検索する
-     */
-    searchScreeningEvents(params) {
-        return __awaiter(this, void 0, void 0, function* () {
-            const conditions = MongoRepository.CREATE_SCREENING_EVENT_MONGO_CONDITIONS(params);
-            const query = this.eventModel.find({ $and: conditions }, {
-                __v: 0,
-                createdAt: 0,
-                updatedAt: 0
-            });
-            // tslint:disable-next-line:no-single-line-block-comment
-            /* istanbul ignore else */
-            if (params.limit !== undefined &amp;&amp; params.page !== undefined) {
-                query.limit(params.limit).skip(params.limit * (params.page - 1));
-            }
-            // tslint:disable-next-line:no-single-line-block-comment
-            /* istanbul ignore else */
-            if (params.sort !== undefined) {
-                query.sort(params.sort);
-            }
-            return query.setOptions({ maxTimeMS: 10000 }).exec().then((docs) => docs.map((doc) => doc.toObject()));
-        });
-    }
-    countScreeningEventSeries(params) {
-        return __awaiter(this, void 0, void 0, function* () {
-            const conditions = MongoRepository.CREATE_SCREENING_EVENT_SERIES_MONGO_CONDITIONS(params);
-            return this.eventModel.countDocuments({ $and: conditions }).setOptions({ maxTimeMS: 10000 })
-                .exec();
-        });
-    }
-    /**
-     * 上映イベントシリーズを検索する
-     */
-    searchScreeningEventSeries(params) {
-        return __awaiter(this, void 0, void 0, function* () {
-            const conditions = MongoRepository.CREATE_SCREENING_EVENT_SERIES_MONGO_CONDITIONS(params);
-            const query = this.eventModel.find({ $and: conditions }, {
-                __v: 0,
-                createdAt: 0,
-                updatedAt: 0
-            });
-            // tslint:disable-next-line:no-single-line-block-comment
-            /* istanbul ignore else */
-            if (params.limit !== undefined &amp;&amp; params.page !== undefined) {
-                query.limit(params.limit).skip(params.limit * (params.page - 1));
-            }
-            // tslint:disable-next-line:no-single-line-block-comment
-            /* istanbul ignore else */
-            if (params.sort !== undefined) {
-                query.sort(params.sort);
-            }
-            return query.setOptions({ maxTimeMS: 10000 }).exec().then((docs) => docs.map((doc) => doc.toObject()));
-        });
-    }
-    /**
-     * IDでイベントを取得する
-     */
-    findById(params) {
-        return __awaiter(this, void 0, void 0, function* () {
-            const doc = yield this.eventModel.findOne({
-                typeOf: params.typeOf,
-                _id: params.id
-            }, {
-                __v: 0,
-                createdAt: 0,
-                updatedAt: 0
-            }).exec();
-            if (doc === null) {
-                throw new factory.errors.NotFound('Event');
-            }
-            return doc.toObject();
         });
     }
 }
@@ -528,7 +146,7 @@ exports.MongoRepository = MongoRepository;
 <span class="jsdoc-message">
 	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
 	
-		on Thu Nov 15th 2018
+		on Thu Jan 17th 2019
 	
 	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
 </span>

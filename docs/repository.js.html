@@ -33,14 +33,14 @@
 			<li class="dropdown">
 				<a href="classes.list.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
 				<ul class="dropdown-menu ">
-					<li><a href="MongoRepository.html">MongoRepository</a></li><li><a href="RedisRepository.html">RedisRepository</a></li><li><a href="Repository.html">Repository</a></li>
+					<li><a href="MongoRepository.html">MongoRepository</a></li>
 				</ul>
 			</li>
 			
 			<li class="dropdown">
 				<a href="global.html" class="dropdown-toggle" data-toggle="dropdown">Global<b class="caret"></b></a>
 				<ul class="dropdown-menu ">
-					<li><a href="global.html#abort">abort</a></li><li><a href="global.html#action_1">action_1</a></li><li><a href="global.html#aggregateScreeningEvent">aggregateScreeningEvent</a></li><li><a href="global.html#AggregationService">AggregationService</a></li><li><a href="global.html#call">call</a></li><li><a href="global.html#cancel">cancel</a></li><li><a href="global.html#cancelPendingReservation">cancelPendingReservation</a></li><li><a href="global.html#cancelReservation">cancelReservation</a></li><li><a href="global.html#confirm">confirm</a></li><li><a href="global.html#confirmReservation">confirmReservation</a></li><li><a href="global.html#countTicketTypePerEvent">countTicketTypePerEvent</a></li><li><a href="global.html#createDebug">createDebug</a></li><li><a href="global.html#default">default</a></li><li><a href="global.html#execute">execute</a></li><li><a href="global.html#executeByName">executeByName</a></li><li><a href="global.html#exportTasks">exportTasks</a></li><li><a href="global.html#exportTasksById">exportTasksById</a></li><li><a href="global.html#mongoose">mongoose</a></li><li><a href="global.html#redis">redis</a></li><li><a href="global.html#retry">retry</a></li><li><a href="global.html#schema">schema</a></li><li><a href="global.html#searchScreeningEventTicketOffers">searchScreeningEventTicketOffers</a></li><li><a href="global.html#sortOrder4executionOfTasks">sortOrder4executionOfTasks</a></li><li><a href="global.html#start">start</a></li>
+					<li><a href="global.html#chevre">chevre</a></li><li><a href="global.html#countTicketTypePerEvent">countTicketTypePerEvent</a></li><li><a href="global.html#schema">schema</a></li>
 				</ul>
 			</li>
 			
@@ -83,72 +83,35 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * リポジトリー
  */
-const action_1 = require("./repo/action");
-const screeningEvent_1 = require("./repo/aggregation/screeningEvent");
+const chevre = require("@chevre/domain");
+exports.AccountTitle = chevre.repository.AccountTitle;
+exports.Action = chevre.repository.Action;
+exports.CreativeWork = chevre.repository.CreativeWork;
+exports.Place = chevre.repository.Place;
+exports.PriceSpecification = chevre.repository.PriceSpecification;
+exports.Reservation = chevre.repository.Reservation;
+exports.ReservationNumber = chevre.repository.ReservationNumber;
+exports.ServiceType = chevre.repository.ServiceType;
+exports.Task = chevre.repository.Task;
+exports.TicketType = chevre.repository.TicketType;
+exports.Transaction = chevre.repository.Transaction;
+exports.itemAvailability = chevre.repository.itemAvailability;
 const boxOfficeType_1 = require("./repo/boxOfficeType");
-const creativeWork_1 = require("./repo/creativeWork");
 const distributions_1 = require("./repo/distributions");
 const event_1 = require("./repo/event");
-const screeningEvent_2 = require("./repo/itemAvailability/screeningEvent");
-const place_1 = require("./repo/place");
-const priceSpecification_1 = require("./repo/priceSpecification");
-const reservation_1 = require("./repo/reservation");
-const reservationNumber_1 = require("./repo/reservationNumber");
 const subject_1 = require("./repo/subject");
-const task_1 = require("./repo/task");
-const ticketType_1 = require("./repo/ticketType");
-const transaction_1 = require("./repo/transaction");
-class Action extends action_1.MongoRepository {
-}
-exports.Action = Action;
-class CreativeWork extends creativeWork_1.MongoRepository {
-}
-exports.CreativeWork = CreativeWork;
-class Distributions extends distributions_1.MongoRepository {
-}
-exports.Distributions = Distributions;
 class BoxOfficeType extends boxOfficeType_1.MongoRepository {
 }
 exports.BoxOfficeType = BoxOfficeType;
 class Event extends event_1.MongoRepository {
 }
 exports.Event = Event;
-class Place extends place_1.MongoRepository {
+class Distributions extends distributions_1.MongoRepository {
 }
-exports.Place = Place;
-class PriceSpecification extends priceSpecification_1.MongoRepository {
-}
-exports.PriceSpecification = PriceSpecification;
-class Reservation extends reservation_1.MongoRepository {
-}
-exports.Reservation = Reservation;
-class ReservationNumber extends reservationNumber_1.RedisRepository {
-}
-exports.ReservationNumber = ReservationNumber;
+exports.Distributions = Distributions;
 class Subject extends subject_1.MongoRepository {
 }
 exports.Subject = Subject;
-class Task extends task_1.MongoRepository {
-}
-exports.Task = Task;
-class TicketType extends ticketType_1.MongoRepository {
-}
-exports.TicketType = TicketType;
-class Transaction extends transaction_1.MongoRepository {
-}
-exports.Transaction = Transaction;
-var aggregation;
-(function (aggregation) {
-    class ScreeningEvent extends screeningEvent_1.RedisRepository {
-    }
-    aggregation.ScreeningEvent = ScreeningEvent;
-})(aggregation = exports.aggregation || (exports.aggregation = {}));
-var itemAvailability;
-(function (itemAvailability) {
-    class ScreeningEvent extends screeningEvent_2.RedisRepository {
-    }
-    itemAvailability.ScreeningEvent = ScreeningEvent;
-})(itemAvailability = exports.itemAvailability || (exports.itemAvailability = {}));
 </pre>
     </article>
 </section>
@@ -190,7 +153,7 @@ var itemAvailability;
 <span class="jsdoc-message">
 	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
 	
-		on Thu Nov 15th 2018
+		on Thu Jan 17th 2019
 	
 	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
 </span>
