@@ -1,4 +1,4 @@
-import { mongoose } from '@chevre/domain';
+import * as mongoose from 'mongoose';
 
 import distributionsModel from './mongoose/model/distributions';
 
